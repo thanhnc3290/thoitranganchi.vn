@@ -12,6 +12,13 @@
     <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_2.css">
     <link id="judgeme_widget_align_css" onload="this.media='all'" type="text/css" rel="stylesheet" href="./assets/css/align.css">
     <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_3.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_4.css">
+    <link rel="preload" as="font" href="./assets/fonts/98f97ed7d7fc0940.ttf" type="font/ttf" crossorigin="">
+    <link rel="preload" as="font" href="./assets/fonts/f5c48067f3876e78.ttf" type="font/ttf" crossorigin="">
+    <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_5.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_6.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_7.css">
+    <link type="text/css" rel="stylesheet" href="./assets/css/index_head_css_8.css">
 
     <link rel="shortcut icon" href="./assets/images/Layer-0.webp">
     <link rel="apple-touch-icon" href="./assets/images/Layer-0.webp">
@@ -46,888 +53,15 @@
     <script type="module" src="./assets/js/vendor.min.js"></script>
     <script type="module" src="./assets/js/theme.js"></script>
     <script type="module" src="./assets/js/sections.js"></script>
-    <!-- làm đến dây -->
     
-    <script async="" data-cfasync="false" type="text/javascript" src="./assets/js/loader.js"></script>
-
     <noscript>
-        <link rel="stylesheet" type="text/css" media="all" href="https://cdn.judge.me/shopify_v2.css">
+        <link rel="stylesheet" type="text/css" media="all" href="./assets/css/shopify_v2.css">
     </noscript>
-    
-    
-
-    <script>
-        var vitals_app_cache_keys_v1 = [1675826368, 1680186603, 0, 1675826386, 1675826368, 0, 0]
-    </script>
-    <script src="https://appsolve.io/assets/js/bundle.js?v=1679855622&amp;shop=polomanor.myshopify.com" async=""></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script async="" src="//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js"></script>
-    <script async="" src="https://cdn.shopify.com/b2f8f7cf0w6539f1d1p481d1c57m6aa61b81m.js"></script>
-    <script type="module" defer="" src="https://cdn.shopify.com/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js"></script>
-    <style id="vitals-styles">
-        .vitals-img {
-            position: relative;
-            float: left;
-            width: 100%;
-            height: 250px;
-            background-position: 50% 50%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            margin: 0 0 20px
-        }
-
-        .vitals-img img {
-            object-fit: contain;
-            height: 98%;
-            box-shadow: 1px 1px 5px rgba(146, 146, 146, .2);
-            border-radius: 5px
-        }
-
-        .vt-hidden {
-            display: none
-        }
-
-        .vt-hide-scale-fade {
-            transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1), opacity 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            transform: scale(0);
-            opacity: 0
-        }
-
-        #vitals-end-section {
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto
-        }
-
-        .vtl-anl-v2 {
-            max-width: 0;
-            max-height: 0;
-            width: 0;
-            height: 0;
-            position: absolute
-        }
-
-        .vitals-loader {
-            border: 2px solid rgba(0, 0, 0, .12);
-            border-left-color: #4c4c4c;
-            animation: loader-spin .7s infinite linear;
-            position: relative;
-            display: inline-block;
-            vertical-align: top;
-            border-radius: 50%;
-            width: 23px;
-            height: 23px;
-            color: rgba(0, 0, 0, 0)
-        }
-
-        @keyframes loader-spin {
-            0% {
-                transform: rotate(0deg)
-            }
-
-            100% {
-                transform: rotate(360deg)
-            }
-        }
-
-        @media only screen and (max-width: 768px) {
-            .vitals-img {
-                height: 200px
-            }
-        }
-
-        @media only screen and (max-width: 425px) {
-            .vitals-img {
-                height: 150px
-            }
-        }
-
-        .vitals-nice-select {
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-            border-radius: 5px;
-            box-sizing: border-box;
-            clear: both;
-            cursor: pointer;
-            display: block;
-            float: left;
-            font-family: inherit;
-            font-size: 14px;
-            font-weight: normal;
-            height: 40px;
-            line-height: 40px;
-            outline: none;
-            padding-left: 12px;
-            padding-right: 23px;
-            position: relative;
-            text-align: left !important;
-            transition: all .2s ease-in-out;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            white-space: nowrap;
-            width: auto;
-            background: #fff;
-            border: 1px solid #eaeaea
-        }
-
-        .vitals-nice-select:hover {
-            border-color: #dbdbdb
-        }
-
-        .vitals-nice-select:active,
-        .vitals-nice-select.open,
-        .vitals-nice-select:focus {
-            border-color: #999
-        }
-
-        .vitals-nice-select::after {
-            border-bottom: 2px solid #999;
-            border-right: 2px solid #999;
-            content: "";
-            display: block;
-            height: 6px;
-            width: 6px;
-            margin-top: -4px;
-            pointer-events: none;
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform-origin: 66% 66%;
-            transform: rotate(45deg);
-            transition: all .15s ease-in-out
-        }
-
-        .vitals-nice-select.open::after {
-            transform: rotate(-135deg)
-        }
-
-        .vitals-nice-select.open .list {
-            opacity: 1;
-            pointer-events: auto;
-            transform: scale(1) translateY(0);
-            max-height: 300px;
-            overflow-y: auto;
-            display: block
-        }
-
-        .vitals-nice-select.disabled {
-            border-color: #ededed;
-            color: #999;
-            pointer-events: none
-        }
-
-        .vitals-nice-select.disabled::after {
-            border-color: #ccc
-        }
-
-        .vitals-nice-select.wide {
-            width: 100%
-        }
-
-        .vitals-nice-select.wide .list {
-            left: 0 !important;
-            right: 0 !important
-        }
-
-        .vitals-nice-select.right {
-            float: right
-        }
-
-        .vitals-nice-select.right .list {
-            left: auto;
-            right: 0
-        }
-
-        .vitals-nice-select.small {
-            font-size: 12px;
-            height: 36px;
-            line-height: 34px
-        }
-
-        .vitals-nice-select.small::after {
-            height: 4px;
-            width: 4px
-        }
-
-        .vitals-nice-select.small .option {
-            line-height: 34px;
-            min-height: 34px
-        }
-
-        .vitals-nice-select .list {
-            max-height: 300px;
-            border-radius: 5px;
-            box-shadow: 0 0 0 1px rgba(68, 68, 68, .11);
-            box-sizing: border-box;
-            margin: 4px 0 0;
-            opacity: 0;
-            overflow: hidden;
-            padding: 0;
-            pointer-events: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            transform-origin: 50% 0;
-            transform: scale(0.75) translateY(-21px);
-            z-index: 2000000000;
-            background: #fff
-        }
-
-        .vitals-nice-select .option {
-            opacity: 1 !important;
-            display: list-item !important;
-            cursor: pointer;
-            font-weight: 400;
-            line-height: 40px !important;
-            list-style: none;
-            min-height: 40px;
-            outline: none;
-            padding-left: 10px;
-            padding-right: 40px;
-            text-align: left;
-            transition: all .2s
-        }
-
-        .vitals-nice-select .option:hover,
-        .vitals-nice-select .option.focus,
-        .vitals-nice-select .option.selected.focus {
-            background-color: #f6f6f6
-        }
-
-        .vitals-nice-select .option.selected {
-            font-weight: bold
-        }
-
-        .vitals-nice-select .option.disabled {
-            background-color: rgba(0, 0, 0, 0);
-            color: #999;
-            cursor: default
-        }
-
-        .no-csspointerevents .vitals-nice-select .list {
-            display: none
-        }
-
-        .no-csspointerevents .vitals-nice-select.open .list {
-            display: block
-        }
-
-        .vitals-nice-select .cc-current {
-            display: block;
-            text-overflow: ellipsis;
-            overflow: hidden
-        }
-
-        .vitals-mobile-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            padding: 5px 20px;
-            height: 50px
-        }
-
-        .vitals-mobile-back {
-            top: 0;
-            left: 0;
-            z-index: 3;
-            background-color: #fff;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            cursor: pointer;
-            align-items: center
-        }
-
-        .vitals-mobile-back svg {
-            color: #000;
-            font-size: 18px;
-            width: 1em;
-            height: 1em
-        }
-
-        .vitals-desktop-back {
-            height: 40px;
-            width: 40px;
-            cursor: pointer;
-            position: absolute;
-            top: -40px;
-            right: 0;
-            z-index: 2;
-            line-height: 0
-        }
-
-        .vitals-desktop-back svg {
-            color: #fff;
-            font-size: 32px;
-            width: 1em;
-            height: 1em
-        }
-
-        @media(min-width: 1024px) {
-            .vitals-desktop-back:hover {
-                opacity: .6
-            }
-        }
-
-        .vitals-slider-prev,
-        .vitals-slider-next {
-            cursor: pointer;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            text-align: center;
-            line-height: 0
-        }
-
-        @media(min-width: 1024px) {
-
-            .vitals-slider-prev:hover,
-            .vitals-slider-next:hover {
-                opacity: .6
-            }
-        }
-
-        .vitals-slider-prev svg,
-        .vitals-slider-next svg {
-            color: #fff;
-            font-size: 32px;
-            width: 1em;
-            height: 1em
-        }
-
-        .vtl-g-not-scrollable {
-            overflow-y: hidden !important
-        }
-
-        .vtl-g-clickable {
-            cursor: pointer
-        }
-
-        .vtl-g-hidden {
-            display: none
-        }
-
-        .vtl-grecaptcha-v3 {
-            visibility: hidden
-        }
-
-        .vtl-proxy-generic-page-content {
-            max-width: 1200px;
-            margin: 0 auto
-        }
-    </style>
     <style id="vitals-integration-styles"></style>
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.latest.vi.eaea8237577ed73f4685.js">
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~Information~NoAddressLocation~Payment~PostPurchase~Review~Shipping~ShopPay~Sho~cf13f96e.latest.vi.04837ae4ff5a8e949953.js">
-    <script type="text/javascript" src="https://bundler.nice-team.net/app/shop/status/polomanor.myshopify.com.js?1680251488"></script>
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.vi.5d9713e3ce693f3677da.js">
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.vi.96083bc950cd23ca2bc6.js">
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.vi.86cd9328cdcd6cd3a58f.js">
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.vi.153010095b15424b97dc.js">
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-packages~app.latest.vi.a6ab1c67946d5bd879f2.js">
-    <link rel="prefetch" fetchpriority="low" as="script" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.vi.b308cb25a83f9919aef2.js">
-    <link rel="prefetch" fetchpriority="low" as="style" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/checkout-web-ui~app.latest.vi.9f2a5e9ec696775e2217.css">
-    <link rel="prefetch" fetchpriority="low" as="style" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/vendors~app.latest.vi.e788719f193b49c039a3.css">
-    <link rel="prefetch" fetchpriority="low" as="style" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.latest.vi.6b4c79ead7042980b29d.css">
-    <link rel="prefetch" fetchpriority="low" as="style" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information~Payment~ShopPay.latest.vi.da9f06164a980bf8e7ea.css">
-    <link rel="prefetch" fetchpriority="low" as="style" href="https://cdn.shopify.com/shopifycloud/checkout-web/assets/Information.latest.vi.9a0274ab07be120c1902.css">
-    <script type="text/javascript" src="https://cdn-bundler.nice-team.net/app/js/bundler-script.js?shop=polomanor.myshopify.com&amp;1669798641"></script>
 </head>
 
 <body class=" zoom-image--enabled">
-    <div class="evm-wiser-popup-mainsection"></div> <!-- BEGIN app block: shopify://apps/use-google-fonts-custom-fonts/blocks/app-embed/2caf2c68-0038-455e-b0b9-066a7c2ad923 -->
-    <link rel="preload" as="font" href="https://cdn.shopify.com/s/files/1/0685/2237/7522/t/5/assets/98f97ed7d7fc0940.ttf?v=1678680390" type="font/ttf" crossorigin="">
-    <link rel="preload" as="font" href="https://cdn.shopify.com/s/files/1/0685/2237/7522/t/5/assets/f5c48067f3876e78.ttf?v=1678680900" type="font/ttf" crossorigin="">
-    <style id="rafp-stylesheet">
-        @font-face {
-            font-family: "Font-1670597148190";
-            src: url("https:\/\/cdn.shopify.com\/s\/files\/1\/0685\/2237\/7522\/t\/5\/assets\/98f97ed7d7fc0940.ttf?v=1678680390");
-            font-display: block;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p {
-            font-family: "Font-1670597148190" !important;
-        }
-
-        @font-face {
-            font-family: "Font-1678680842541";
-            src: url("https:\/\/cdn.shopify.com\/s\/files\/1\/0685\/2237\/7522\/t\/5\/assets\/f5c48067f3876e78.ttf?v=1678680900");
-            font-display: swap;
-        }
-
-        body,
-        li {
-            font-family: "Font-1678680842541";
-        }
-
-        @media screen and (max-width: 749px) {
-
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            p {}
-
-            body,
-            li {}
-        }
-    </style>
-    <!-- END app app block --><!-- BEGIN app block: shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8 --><!-- Start of Judge.me Core -->
-    <link rel="dns-prefetch" href="https://cdn.judge.me">
-    <script data-cfasync="false" class="jdgm-settings-script">
-        window.jdgmSettings = {
-            "pagination": 5,
-            "disable_web_reviews": false,
-            "badge_no_review_text": "No reviews",
-            "badge_n_reviews_text": "{{ n }} review/reviews",
-            "hide_badge_preview_if_no_reviews": true,
-            "badge_hide_text": false,
-            "enforce_center_preview_badge": false,
-            "widget_title": "ĐÁNH GIÁ SẢN PHẨM",
-            "widget_open_form_text": "Thêm bình luận",
-            "widget_close_form_text": "Hủy bình luận",
-            "widget_refresh_page_text": "Tải lại trang",
-            "widget_summary_text": "Dựa trên {{ number_of_reviews }} đánh giá của người mua về sản phẩm",
-            "widget_no_review_text": "Hãy đánh giá sản phẩm của chúng tôi nhé",
-            "widget_name_field_text": "Tên",
-            "widget_verified_name_field_text": "Xác thực tên",
-            "widget_name_placeholder_text": "Nhập tên của bạn",
-            "widget_required_field_error_text": "Bạn cần nhập vào đây",
-            "widget_email_field_text": "Email",
-            "widget_verified_email_field_text": "Email xác thực (riêng tư, không thể chỉnh sửa)",
-            "widget_email_placeholder_text": "Nhập địa chỉ email của bạn",
-            "widget_email_field_error_text": "Xin vui lòng nhập đúng địa chỉ email!",
-            "widget_rating_field_text": "Đánh giá",
-            "widget_review_title_field_text": "Tiêu đề",
-            "widget_review_title_placeholder_text": "Ghi tiêu đề cho đánh giá",
-            "widget_review_body_field_text": "Đánh giá",
-            "widget_review_body_placeholder_text": "Hãy chia sẻ nhận xét cho sản phẩm này bạn nhé!",
-            "widget_pictures_field_text": "Hình ảnh/ video (tùy chọn)",
-            "widget_submit_review_text": "Gửi bình luận",
-            "widget_submit_verified_review_text": "Gửi bình luận",
-            "widget_submit_success_msg_with_auto_publish": "Cảm ơn bạn, đánh giá của bạn đã được gửi đi! Vui lòng làm mới trang trong giây lát để xem đánh giá của bạn. Bạn có thể xóa hoặc chỉnh sửa đánh giá của mình bằng cách đăng nhập vào \u003ca href='https://judge.me/login' target='_blank' rel='nofollow noopener'\u003eJudge.me\u003c/a\u003e",
-            "widget_submit_success_msg_no_auto_publish": "Cảm ơn bạn, đánh giá của bạn đã được gửi đi và sẽ hiển thị sau khi được kiểm duyệt. Bạn có thể xóa hoặc chỉnh sửa đánh giá của mình bằng cách đăng nhập vào \u003ca href='https://judge.me/login' target='_blank' rel='nofollow noopener'\u003eJudge.me\u003c/a\u003e",
-            "widget_show_default_reviews_out_of_total_text": "Showing {{ n_reviews_shown }} out of {{ n_reviews }} reviews.",
-            "widget_show_all_link_text": "Show all",
-            "widget_show_less_link_text": "Show less",
-            "widget_author_said_text": "{{ reviewer_name }} said:",
-            "widget_days_text": "{{ n }} days ago",
-            "widget_weeks_text": "{{ n }} week/weeks ago",
-            "widget_months_text": "{{ n }} month/months ago",
-            "widget_years_text": "{{ n }} year/years ago",
-            "widget_yesterday_text": "Yesterday",
-            "widget_today_text": "Today",
-            "widget_replied_text": "\u003e\u003e {{ shop_name }} đã phản hồi",
-            "widget_read_more_text": "Read more",
-            "widget_rating_filter_color": "#0a2139",
-            "widget_rating_filter_see_all_text": "See all reviews",
-            "widget_sorting_most_recent_text": "Mới nhất",
-            "widget_sorting_highest_rating_text": "Đánh giá cao nhẩt",
-            "widget_sorting_lowest_rating_text": "Đánh giá thấp nhất",
-            "widget_sorting_with_pictures_text": "Đánh giá có ảnh",
-            "widget_sorting_most_helpful_text": "Hữu ích nhất",
-            "widget_open_question_form_text": "Đặt cậu hỏi",
-            "widget_reviews_subtab_text": "Đánh giá",
-            "widget_questions_subtab_text": "Câu hỏi",
-            "widget_question_label_text": "Câu hỏi",
-            "widget_answer_label_text": "Đánh giá",
-            "widget_question_placeholder_text": "Viết câu hỏi của bạn tại đây",
-            "widget_submit_question_text": "Gửi câu hỏi",
-            "widget_question_submit_success_text": "Cảm ơn bạn đã đặt câu hỏi, Polomanor sẽ thông báo khi có câu trả lời!",
-            "verified_badge_text": "Verified",
-            "verified_badge_placement": "left-of-reviewer-name",
-            "widget_hide_border": false,
-            "widget_social_share": false,
-            "widget_thumb": true,
-            "widget_review_location_show": false,
-            "widget_location_format": "country_code_only",
-            "all_reviews_include_out_of_store_products": true,
-            "all_reviews_out_of_store_text": "(out of store)",
-            "all_reviews_product_name_prefix_text": "Đánh giá cho",
-            "enable_review_pictures": true,
-            "enable_question_anwser": false,
-            "widget_theme": "align",
-            "widget_product_reviews_subtab_text": "Product Reviews",
-            "widget_shop_reviews_subtab_text": "Shop Reviews",
-            "widget_sorting_pictures_first_text": "Đánh giá có ảnh trước",
-            "floating_tab_button_name": "★ Judge.me Reviews",
-            "floating_tab_title": "Let customers speak for us",
-            "floating_tab_url": "https://polomanor.myshopify.com/pages/reviews",
-            "all_reviews_text_badge_text": "Customers rate us {{ shop.metafields.judgeme.all_reviews_rating | round: 1 }}/5 based on {{ shop.metafields.judgeme.all_reviews_count }} reviews.",
-            "all_reviews_text_badge_url": "https://polomanor.myshopify.com/pages/reviews",
-            "featured_carousel_title": "Let customers speak for us",
-            "featured_carousel_count_text": "from {{ n }} reviews",
-            "featured_carousel_url": "https://polomanor.myshopify.com/pages/reviews",
-            "verified_count_badge_url": "https://polomanor.myshopify.com/pages/reviews",
-            "widget_histogram_use_custom_color": true,
-            "picture_reminder_submit_button": "Upload Pictures",
-            "enable_review_videos": true,
-            "widget_sorting_videos_first_text": "Đánh giá có video trước",
-            "widget_review_pending_text": "Pending",
-            "remove_microdata_snippet": true,
-            "preview_badge_no_question_text": "No questions",
-            "preview_badge_n_question_text": "{{ number_of_questions }} question/questions",
-            "widget_search_bar_placeholder": "Search reviews",
-            "widget_sorting_verified_only_text": "Verified only",
-            "all_reviews_page_load_more_text": "Load More Reviews",
-            "widget_public_name_text": "Hiển thị công khai dưới tên",
-            "default_reviewer_name": "Nguyễn Văn A",
-            "default_reviewer_name_has_non_latin": true,
-            "widget_reviewer_anonymous": "Ẩn danh",
-            "medals_widget_title": "Judge.me Review Medals",
-            "widget_invalid_yt_video_url_error_text": "Không phải link Youtube",
-            "widget_load_with_code_splitting": true,
-            "widget_ugc_title": "Made by us, Shared by you",
-            "widget_ugc_subtitle": "Tag us to see your picture featured in our page",
-            "widget_ugc_primary_button_text": "Buy Now",
-            "widget_ugc_secondary_button_text": "Load More",
-            "widget_ugc_reviews_button_text": "View Reviews",
-            "widget_primary_color": "#0a2139",
-            "widget_summary_average_rating_text": "{{ average_rating }} trên 5 sao",
-            "widget_media_grid_title": "Customer photos \u0026 videos",
-            "widget_media_grid_see_more_text": "See more",
-            "widget_show_product_medals": false,
-            "widget_verified_by_judgeme_text": "Verified by Judge.me",
-            "widget_verified_by_judgeme_text_in_store_medals": "Verified by Judge.me",
-            "widget_media_field_exceed_quantity_message": "Xin lỗi, trang web chỉ chấp nhận {{ max_media }} hình ảnh/video",
-            "widget_media_field_exceed_limit_message": "File {{ file_name }} quá nặng, bạn vui lòng upload file {{ media_type }} nhỏ hơn {{ size_limit }}MB bạn nhé!",
-            "widget_review_submitted_text": "Đã gửi bình luận",
-            "widget_question_submitted_text": "Đã gửi câu hỏi",
-            "widget_close_form_text_question": "Hủy",
-            "widget_write_your_answer_here_text": "Viết câu trả lời của bạn tại đây",
-            "widget_show_collected_by_judgeme": false,
-            "widget_collected_by_judgeme_text": "collected by Judge.me",
-            "widget_pagination_type": "load_more",
-            "widget_load_more_text": "Tải thêm",
-            "widget_full_review_text": "Full Review",
-            "widget_read_more_reviews_text": "Read More Reviews",
-            "widget_read_questions_text": "Read Questions",
-            "widget_questions_and_answers_text": "Questions \u0026 Answers",
-            "widget_verified_by_text": "Verified by",
-            "widget_number_of_reviews_text": "{{ number_of_reviews }} reviews",
-            "preview_badge_collection_page_install_preference": true,
-            "preview_badge_product_page_install_preference": true,
-            "review_widget_best_location": true,
-            "platform": "shopify",
-            "branding_url": "https://judge.me/reviews",
-            "branding_text": "Powered by Judge.me",
-            "locale": "en",
-            "reply_name": "Polomanor",
-            "widget_version": "3.0",
-            "footer": true,
-            "autopublish": true,
-            "review_dates": true,
-            "enable_custom_form": true
-        };
-    </script>
-    <style class="jdgm-settings-style">
-        .jdgm-xx {
-            left: 0
-        }
-
-        :root {
-            --jdgm-primary-color: #0a2139;
-            --jdgm-secondary-color: rgba(10, 33, 57, 0.1);
-            --jdgm-star-color: #0a2139;
-            --jdgm-paginate-color: #0a2139;
-            --jdgm-border-radius: 0
-        }
-
-        .jdgm-histogram__bar-content {
-            background-color: #0a2139
-        }
-
-        .jdgm-rev[data-verified-buyer=true] .jdgm-rev__icon.jdgm-rev__icon:after,
-        .jdgm-rev__buyer-badge.jdgm-rev__buyer-badge {
-            color: white;
-            background-color: #0a2139
-        }
-
-        .jdgm-review-widget--small .jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before {
-            content: "See more"
-        }
-
-        @media only screen and (min-width: 768px) {
-            .jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before {
-                content: "See more"
-            }
-        }
-
-        .jdgm-rev__thumb-btn {
-            color: #0a2139
-        }
-
-        .jdgm-rev__thumb-btn:hover {
-            opacity: 0.8
-        }
-
-        .jdgm-rev__thumb-btn:not([disabled]):hover,
-        .jdgm-rev__thumb-btn:hover,
-        .jdgm-rev__thumb-btn:active,
-        .jdgm-rev__thumb-btn:visited {
-            color: #0a2139
-        }
-
-        .jdgm-prev-badge[data-average-rating='0.00'] {
-            display: none !important
-        }
-
-        .jdgm-author-all-initials {
-            display: none !important
-        }
-
-        .jdgm-author-last-initial {
-            display: none !important
-        }
-
-        .jdgm-rev-widg__title {
-            visibility: hidden
-        }
-
-        .jdgm-rev-widg__summary-text {
-            visibility: hidden
-        }
-
-        .jdgm-prev-badge__text {
-            visibility: hidden
-        }
-
-        .jdgm-rev__replier:before {
-            content: 'POLOMANOR'
-        }
-
-        .jdgm-rev__prod-link-prefix:before {
-            content: 'Đánh giá cho'
-        }
-
-        .jdgm-rev__out-of-store-text:before {
-            content: '(out of store)'
-        }
-
-        @media only screen and (min-width: 768px) {
-
-            .jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,
-            .jdgm-rev__pics .jdgm-rev__product-picture {
-                display: none
-            }
-        }
-
-        @media only screen and (max-width: 768px) {
-
-            .jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,
-            .jdgm-rev__pics .jdgm-rev__product-picture {
-                display: none
-            }
-        }
-
-        .jdgm-preview-badge[data-template="index"] {
-            display: none !important
-        }
-
-        .jdgm-verified-count-badget[data-from-snippet="true"] {
-            display: none !important
-        }
-
-        .jdgm-carousel-wrapper[data-from-snippet="true"] {
-            display: none !important
-        }
-
-        .jdgm-all-reviews-text[data-from-snippet="true"] {
-            display: none !important
-        }
-
-        .jdgm-medals-section[data-from-snippet="true"] {
-            display: none !important
-        }
-
-        .jdgm-ugc-media-wrapper[data-from-snippet="true"] {
-            display: none !important
-        }
-    </style>
-    <link id="judgeme_widget_align_css" rel="stylesheet" type="text/css" media="all" onload="this.media='all'" href="https://cdn.judge.me/widget_v3/theme/align.css">
-
-
-
-
-    <style class="jdgm-miracle-styles">
-        @-webkit-keyframes jdgm-spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-
-            100% {
-                -webkit-transform: rotate(359deg);
-                -ms-transform: rotate(359deg);
-                transform: rotate(359deg)
-            }
-        }
-
-        @keyframes jdgm-spin {
-            0% {
-                -webkit-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                transform: rotate(0deg)
-            }
-
-            100% {
-                -webkit-transform: rotate(359deg);
-                -ms-transform: rotate(359deg);
-                transform: rotate(359deg)
-            }
-        }
-
-        @font-face {
-            font-family: 'JudgemeStar';
-            src: url("data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAScAA0AAAAABrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAEgAAAABoAAAAcbyQ+3kdERUYAAARgAAAAHgAAACAAMwAGT1MvMgAAAZgAAABGAAAAVi+vS9xjbWFwAAAB8AAAAEAAAAFKwBMjvmdhc3AAAARYAAAACAAAAAj//wADZ2x5ZgAAAkAAAAEJAAABdH33LXtoZWFkAAABMAAAAC0AAAA2BroQKWhoZWEAAAFgAAAAHAAAACQD5QHQaG10eAAAAeAAAAAPAAAAFAYAAABsb2NhAAACMAAAAA4AAAAOAO4AeG1heHAAAAF8AAAAHAAAACAASgAvbmFtZQAAA0wAAADeAAABkorWfVZwb3N0AAAELAAAACkAAABEp3ubLXgBY2BkYADhPPP4OfH8Nl8ZuJkYQODS2fRrCPr/aSYGxq1ALgcDWBoAO60LkwAAAHgBY2BkYGDc+v80gx4TAwgASaAICmABAFB+Arl4AWNgZGBgYGPQYWBiAAIwyQgWc2AAAwAHVQB6eAFjYGRiYJzAwMrAwejDmMbAwOAOpb8ySDK0MDAwMbByMsCBAAMCBKS5pjA4PGB4wMR44P8BBj3GrQymQGFGkBwAjtgK/gAAeAFjYoAAEA1jAwAAZAAHAHgB3crBCcAwDEPRZydkih567CDdf4ZskmLwFBV8xBfCaC4BXkOUmx4sU0h2ngNb9V0vQCxaRKIAevT7fGWuBrEAAAAAAAAAAAA0AHgAugAAeAF9z79Kw1AUx/FzTm7un6QmJtwmQ5Bg1abgEGr/BAqlU6Gju+Cgg1MkQ/sA7Vj7BOnmO/gUvo2Lo14NqIO6/IazfD8HEODtmQCfoANwNsyp2/GJt3WKQrd1NLiYYWx2PBqOsmJMEOznPOTzfSCrhAtbbLdmeFLJV9eKd63WLrZcIcuaEVdssWCKM6pLCfTVOYbz/0pNSMSZKLIZpvh78sAUH6PlMrreTCabP9r+Z/puPZ2ur/RqpQHgh+MIegCnXeM4MRAPjYN//5tj4ZtTjkFqEdmeMShlEJ7tVAly2TAkx6R68Fl4E/aVvn8JqHFQ4JS1434gXKcuL31dDhzs3YbsEOAd/IU88gAAAHgBfY4xTgMxEEVfkk0AgRCioKFxQYd2ZRtpixxgRU2RfhU5q5VWseQ4JdfgAJyBlmNwAM7ABRhZQ0ORwp7nr+eZAa54YwYg9zm3ynPOeFRe8MCrciXOh/KSS76UV5L/iDmrLiS5AeU519wrL3jmSbkS5115yR2fyivJv9kx0ZMZ2RLZw27q87iNQi8EBo5FSPIMw3HqBboi5lKTGAGDp8FKXWP+t9TU01Lj5His1Ba6uM9dTEMwvrFmbf5GC/q2drW3ruXUhhsCiQOjznFlCzYhHUZp4xp76vsvQh89CQAAeAFjYGJABowM6IANLMrEyMTIzMjCXpyRWJBqZshWXJJYBKOMAFHFBucAAAAAAAAB//8AAngBY2BkYGDgA2IJBhBgAvKZGViBJAuYxwAABJsAOgAAeAFjYGBgZACCk535hiD60tn0azAaAEqpB6wAAA==") format("woff");
-            font-weight: normal;
-            font-style: normal
-        }
-
-        .jdgm-star {
-            font-family: 'JudgemeStar';
-            display: inline !important;
-            text-decoration: none !important;
-            padding: 0 4px 0 0 !important;
-            margin: 0 !important;
-            font-weight: bold;
-            opacity: 1;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale
-        }
-
-        .jdgm-star:hover {
-            opacity: 1
-        }
-
-        .jdgm-star:last-of-type {
-            padding: 0 !important
-        }
-
-        .jdgm-star.jdgm--on:before {
-            content: "\e000"
-        }
-
-        .jdgm-star.jdgm--off:before {
-            content: "\e001"
-        }
-
-        .jdgm-star.jdgm--half:before {
-            content: "\e002"
-        }
-
-        .jdgm-widget * {
-            margin: 0;
-            line-height: 1.4;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            -webkit-overflow-scrolling: touch
-        }
-
-        .jdgm-hidden {
-            display: none !important;
-            visibility: hidden !important
-        }
-
-        .jdgm-temp-hidden {
-            display: none
-        }
-
-        .jdgm-spinner {
-            width: 40px;
-            height: 40px;
-            margin: auto;
-            border-radius: 50%;
-            border-top: 2px solid #eee;
-            border-right: 2px solid #eee;
-            border-bottom: 2px solid #eee;
-            border-left: 2px solid #ccc;
-            -webkit-animation: jdgm-spin 0.8s infinite linear;
-            animation: jdgm-spin 0.8s infinite linear
-        }
-
-        .jdgm-prev-badge {
-            display: block !important
-        }
-    </style>
-
-
-
-
-
-
-
-    <script data-cfasync="false" class="jdgm-script">
-        ! function(e) {
-            window.jdgm = window.jdgm || {}, jdgm.CDN_HOST = "https://cdn.judge.me/",
-                jdgm.docReady = function(d) {
-                    (e.attachEvent ? "complete" === e.readyState : "loading" !== e.readyState) ?
-                    setTimeout(d, 0): e.addEventListener("DOMContentLoaded", d)
-                }, jdgm.loadCSS = function(d, t, o, a) {
-                    !o && jdgm.loadCSS.requestedUrls.indexOf(d) >= 0 || (jdgm.loadCSS.requestedUrls.push(d),
-                        (a = e.createElement("link")).rel = "stylesheet", a.class = "jdgm-stylesheet", a.media = "nope!",
-                        a.href = d, a.onload = function() {
-                            this.media = "all", t && setTimeout(t)
-                        }, e.body.appendChild(a))
-                },
-                jdgm.loadCSS.requestedUrls = [], jdgm.loadJS = function(e, d) {
-                    var t = new XMLHttpRequest;
-                    t.onreadystatechange = function() {
-                            4 === t.readyState && (Function(t.response)(), d && d(t.response))
-                        },
-                        t.open("GET", e), t.send()
-                }, jdgm.docReady((function() {
-                    (window.jdgmLoadCSS || e.querySelectorAll(
-                        ".jdgm-widget, .jdgm-all-reviews-page").length > 0) && (jdgmSettings.widget_load_with_code_splitting ?
-                        parseFloat(jdgmSettings.widget_version) >= 3 ? jdgm.loadCSS(jdgm.CDN_HOST + "widget_v3/base.css") :
-                        jdgm.loadCSS(jdgm.CDN_HOST + "widget/base.css") : jdgm.loadCSS(jdgm.CDN_HOST + "shopify_v2.css"),
-                        jdgm.loadJS(jdgm.CDN_HOST + "loader.js"))
-                }))
-        }(document);
-    </script>
-    <noscript>
-        <link rel="stylesheet" type="text/css" media="all" href="https://cdn.judge.me/shopify_v2.css">
-    </noscript>
-
-    <!-- BEGIN app snippet: theme_fix_tags -->
+    <div class="evm-wiser-popup-mainsection"></div>
     <script>
         (function() {
             var jdgmThemeFixes = null;
@@ -959,553 +93,25 @@
             };
         })();
     </script>
-    <!-- END app snippet -->
-    <!-- End of Judge.me Core -->
 
-
-
-
-    <!-- END app app block -->
-    <script src="https://cdn.shopify.com/extensions/00eeb112-038e-46fd-9824-2b14729436d7/1.0.0/assets/font.js" type="text/javascript" defer="defer"></script>
-    <link href="https://cdn.shopify.com/extensions/00eeb112-038e-46fd-9824-2b14729436d7/1.0.0/assets/font.css" rel="stylesheet" type="text/css" media="all">
-    <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
-    <script>
-        (function() {
-            if ("sendBeacon" in navigator && "performance" in window) {
-                var session_token = document.cookie.match(/_shopify_s=([^;]*)/);
-
-                function handle_abandonment_event(e) {
-                    var entries = performance.getEntries().filter(function(entry) {
-                        return /monorail-edge.shopifysvc.com/.test(entry.name);
-                    });
-                    if (!window.abandonment_tracked && entries.length === 0) {
-                        window.abandonment_tracked = true;
-                        var currentMs = Date.now();
-                        var navigation_start = performance.timing.navigationStart;
-                        var payload = {
-                            shop_id: 68522377522,
-                            url: window.location.href,
-                            navigation_start,
-                            duration: currentMs - navigation_start,
-                            session_token: session_token && session_token.length === 2 ? session_token[1] : "",
-                            page_type: "index"
-                        };
-                        window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({
-                            schema_id: "online_store_buyer_site_abandonment/1.1",
-                            payload: payload,
-                            metadata: {
-                                event_created_at_ms: currentMs,
-                                event_sent_at_ms: currentMs
-                            }
-                        }));
-                    }
-                }
-                window.addEventListener('pagehide', handle_abandonment_event);
-            }
-        }());
-    </script>
-    <script>
-        window.ShopifyAnalytics = window.ShopifyAnalytics || {};
-        window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
-        window.ShopifyAnalytics.meta.currency = 'VND';
-        var meta = {
-            "page": {
-                "pageType": "home"
-            }
-        };
-        for (var attr in meta) {
-            window.ShopifyAnalytics.meta[attr] = meta[attr];
-        }
-    </script>
-    <script>
-        window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
-
-        };
-    </script>
-    <script class="analytics">
-        (function() {
-            var customDocumentWrite = function(content) {
-                var jquery = null;
-
-                if (window.jQuery) {
-                    jquery = window.jQuery;
-                } else if (window.Checkout && window.Checkout.$) {
-                    jquery = window.Checkout.$;
-                }
-
-                if (jquery) {
-                    jquery('body').append(content);
-                }
-            };
-
-            var hasLoggedConversion = function(token) {
-                if (token) {
-                    return document.cookie.indexOf('loggedConversion=' + token) !== -1;
-                }
-                return false;
-            }
-
-            var setCookieIfConversion = function(token) {
-                if (token) {
-                    var twoMonthsFromNow = new Date(Date.now());
-                    twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
-
-                    document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
-                }
-            }
-
-            var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
-            if (trekkie.integrations) {
-                return;
-            }
-            trekkie.methods = [
-                'identify',
-                'page',
-                'ready',
-                'track',
-                'trackForm',
-                'trackLink'
-            ];
-            trekkie.factory = function(method) {
-                return function() {
-                    var args = Array.prototype.slice.call(arguments);
-                    args.unshift(method);
-                    trekkie.push(args);
-                    return trekkie;
-                };
-            };
-            for (var i = 0; i < trekkie.methods.length; i++) {
-                var key = trekkie.methods[i];
-                trekkie[key] = trekkie.factory(key);
-            }
-            trekkie.load = function(config) {
-                trekkie.config = config || {};
-                trekkie.config.initialDocumentCookie = document.cookie;
-                var first = document.getElementsByTagName('script')[0];
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.onerror = function(e) {
-                    var scriptFallback = document.createElement('script');
-                    scriptFallback.type = 'text/javascript';
-                    scriptFallback.onerror = function(error) {
-                        var Monorail = {
-                            produce: function produce(monorailDomain, schemaId, payload) {
-                                var currentMs = new Date().getTime();
-                                var event = {
-                                    schema_id: schemaId,
-                                    payload: payload,
-                                    metadata: {
-                                        event_created_at_ms: currentMs,
-                                        event_sent_at_ms: currentMs
-                                    }
-                                };
-                                return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
-                            },
-                            sendRequest: function sendRequest(endpointUrl, payload) {
-                                // Try the sendBeacon API
-                                if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
-                                    var blobData = new window.Blob([payload], {
-                                        type: 'text/plain'
-                                    });
-
-                                    if (window.navigator.sendBeacon(endpointUrl, blobData)) {
-                                        return true;
-                                    } // sendBeacon was not successful
-
-                                } // XHR beacon   
-
-                                var xhr = new XMLHttpRequest();
-
-                                try {
-                                    xhr.open('POST', endpointUrl);
-                                    xhr.setRequestHeader('Content-Type', 'text/plain');
-                                    xhr.send(payload);
-                                } catch (e) {
-                                    console.log(e);
-                                }
-
-                                return false;
-                            },
-                            isIos12: function isIos12() {
-                                return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
-                            }
-                        };
-                        Monorail.produce('monorail-edge.shopifysvc.com',
-                            'trekkie_storefront_load_errors/1.1', {
-                                shop_id: 68522377522,
-                                theme_id: 139292377394,
-                                app_name: "storefront",
-                                context_url: window.location.href,
-                                source_url: "https://cdn.shopify.com/s/trekkie.storefront.74b32a91b1cd778e49d480639c037060707fde29.min.js"
-                            });
-
-                    };
-                    scriptFallback.async = true;
-                    scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.74b32a91b1cd778e49d480639c037060707fde29.min.js';
-                    first.parentNode.insertBefore(scriptFallback, first);
-                };
-                script.async = true;
-                script.src = 'https://cdn.shopify.com/s/trekkie.storefront.74b32a91b1cd778e49d480639c037060707fde29.min.js';
-                first.parentNode.insertBefore(script, first);
-            };
-            trekkie.load({
-                "Trekkie": {
-                    "appName": "storefront",
-                    "development": false,
-                    "defaultAttributes": {
-                        "shopId": 68522377522,
-                        "isMerchantRequest": null,
-                        "themeId": 139292377394,
-                        "themeCityHash": "381954741923060340",
-                        "contentLanguage": "vi",
-                        "currency": "VND"
-                    },
-                    "isServerSideCookieWritingEnabled": true,
-                    "monorailRegion": "shop_domain"
-                },
-                "Session Attribution": {},
-                "S2S": {
-                    "facebookCapiEnabled": false,
-                    "source": "trekkie-storefront-renderer"
-                }
-            });
-
-            var loaded = false;
-            trekkie.ready(function() {
-                if (loaded) return;
-                loaded = true;
-
-                window.ShopifyAnalytics.lib = window.trekkie;
-
-
-                var originalDocumentWrite = document.write;
-                document.write = customDocumentWrite;
-                try {
-                    window.ShopifyAnalytics.merchantGoogleAnalytics.call(this);
-                } catch (error) {};
-                document.write = originalDocumentWrite;
-
-                window.ShopifyAnalytics.lib.page(null, {
-                    "pageType": "home"
-                });
-
-                var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
-                var token = match ? match[1] : undefined;
-                if (!hasLoggedConversion(token)) {
-                    setCookieIfConversion(token);
-
-                }
-            });
-
-
-            var eventsListenerScript = document.createElement('script');
-            eventsListenerScript.async = true;
-            eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
-            document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
-
-        })();
-    </script>
-    <script class="boomerang">
-        (function() {
-            if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
-                return;
-            }
-            window.BOOMR = window.BOOMR || {};
-            window.BOOMR.snippetStart = new Date().getTime();
-            window.BOOMR.snippetExecuted = true;
-            window.BOOMR.snippetVersion = 12;
-            window.BOOMR.application = "storefront-renderer";
-            window.BOOMR.themeName = "Impact";
-            window.BOOMR.themeVersion = "3.1.0";
-            window.BOOMR.shopId = 68522377522;
-            window.BOOMR.themeId = 139292377394;
-            window.BOOMR.renderRegion = "gcp-us-central1";
-            window.BOOMR.url =
-                "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
-            var where = document.currentScript || document.getElementsByTagName("script")[0];
-            var parentNode = where.parentNode;
-            var promoted = false;
-            var LOADER_TIMEOUT = 3000;
-
-            function promote() {
-                if (promoted) {
-                    return;
-                }
-                var script = document.createElement("script");
-                script.id = "boomr-scr-as";
-                script.src = window.BOOMR.url;
-                script.async = true;
-                parentNode.appendChild(script);
-                promoted = true;
-            }
-
-            function iframeLoader(wasFallback) {
-                promoted = true;
-                var dom, bootstrap, iframe, iframeStyle;
-                var doc = document;
-                var win = window;
-                window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
-                bootstrap = function(parent, scriptId) {
-                    var script = doc.createElement("script");
-                    script.id = scriptId || "boomr-if-as";
-                    script.src = window.BOOMR.url;
-                    BOOMR_lstart = new Date().getTime();
-                    parent = parent || doc.body;
-                    parent.appendChild(script);
-                };
-                if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
-                    window.BOOMR.snippetMethod = "s";
-                    bootstrap(parentNode, "boomr-async");
-                    return;
-                }
-                iframe = document.createElement("IFRAME");
-                iframe.src = "about:blank";
-                iframe.title = "";
-                iframe.role = "presentation";
-                iframe.loading = "eager";
-                iframeStyle = (iframe.frameElement || iframe).style;
-                iframeStyle.width = 0;
-                iframeStyle.height = 0;
-                iframeStyle.border = 0;
-                iframeStyle.display = "none";
-                parentNode.appendChild(iframe);
-                try {
-                    win = iframe.contentWindow;
-                    doc = win.document.open();
-                } catch (e) {
-                    dom = document.domain;
-                    iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
-                    win = iframe.contentWindow;
-                    doc = win.document.open();
-                }
-                if (dom) {
-                    doc._boomrl = function() {
-                        this.domain = dom;
-                        bootstrap();
-                    };
-                    doc.write("<body onload='document._boomrl();'>");
-                } else {
-                    win._boomrl = function() {
-                        bootstrap();
-                    };
-                    if (win.addEventListener) {
-                        win.addEventListener("load", win._boomrl, false);
-                    } else if (win.attachEvent) {
-                        win.attachEvent("onload", win._boomrl);
-                    }
-                }
-                doc.close();
-            }
-            var link = document.createElement("link");
-            if (link.relList &&
-                typeof link.relList.supports === "function" &&
-                link.relList.supports("preload") &&
-                ("as" in link)) {
-                window.BOOMR.snippetMethod = "p";
-                link.href = window.BOOMR.url;
-                link.rel = "preload";
-                link.as = "script";
-                link.addEventListener("load", promote);
-                link.addEventListener("error", function() {
-                    iframeLoader(true);
-                });
-                setTimeout(function() {
-                    if (!promoted) {
-                        iframeLoader(true);
-                    }
-                }, LOADER_TIMEOUT);
-                BOOMR_lstart = new Date().getTime();
-                parentNode.appendChild(link);
-            } else {
-                iframeLoader(false);
-            }
-
-            function boomerangSaveLoadTime(e) {
-                window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
-            }
-            if (window.addEventListener) {
-                window.addEventListener("load", boomerangSaveLoadTime, false);
-            } else if (window.attachEvent) {
-                window.attachEvent("onload", boomerangSaveLoadTime);
-            }
-            if (document.addEventListener) {
-                document.addEventListener("onBoomerangLoaded", function(e) {
-                    e.detail.BOOMR.init({
-                        ResourceTiming: {
-                            enabled: true,
-                            trackedResourceTypes: ["script", "img", "css"]
-                        },
-                    });
-                    e.detail.BOOMR.t_end = new Date().getTime();
-                });
-            } else if (document.attachEvent) {
-                document.attachEvent("onpropertychange", function(e) {
-                    if (!e) e = event;
-                    if (e.propertyName === "onBoomerangLoaded") {
-                        e.detail.BOOMR.init({
-                            ResourceTiming: {
-                                enabled: true,
-                                trackedResourceTypes: ["script", "img", "css"]
-                            },
-                        });
-                        e.detail.BOOMR.t_end = new Date().getTime();
-                    }
-                });
-            }
-        })();
-    </script>
-    <link href="https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js" rel="preload" as="script">
-    <script id="web-pixels-manager-setup">
-        (function e(e, n, a, t, o, r) {
-            function i(e, n) {
-                if (document.head) {
-                    var a = document.createElement("link");
-                    e.match(/spin\.dev\/?/) && (e += "?fast_storefront_renderer=1"), a.rel = "prefetch", a.href = e, n && (a.as = n), document.head.appendChild(a)
-                }
-            }
-            var s = null !== e;
-            s && (window.Shopify = window.Shopify || {}, window.Shopify.analytics = window.Shopify.analytics || {}, window.Shopify.analytics.replayQueue = [], window.Shopify.analytics.publish = function(e, n, a) {
-                window.Shopify.analytics.replayQueue.push([e, n, a])
-            });
-            var l = function() {
-                    var e = "legacy",
-                        n = "unknown",
-                        a = null,
-                        t = navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),
-                        o = navigator.userAgent.match(/(Edg)\/(\d+)/i),
-                        r = navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);
-                    r ? (n = "safari", a = parseInt(r[2], 10)) : o ? (n = "edge", a = parseInt(o[2], 10)) : t && (n = t[1].toLocaleLowerCase(), a = parseInt(t[2], 10));
-                    var i = {
-                        chrome: 60,
-                        firefox: 55,
-                        safari: 11,
-                        edge: 80
-                    } [n];
-                    return void 0 !== i && null !== a && i <= a && (e = "modern"), e
-                }(),
-                d = l.substring(0, 1),
-                c = t.substring(0, 1),
-                p = !1;
-            if (e && e.enabledBetaFlags && (p = -1 !== e.enabledBetaFlags.indexOf("web_pixels_prefetch_assets")), s && p) {
-                var f = self.location.origin,
-                    u = e.webPixelsConfigList || [],
-                    w = e.webPixelsConfigList || [],
-                    h = u.filter((function(e) {
-                        return "app" === e.type.toLowerCase()
-                    })),
-                    y = w.filter((function(e) {
-                        return "custom" === e.type.toLowerCase()
-                    }));
-                i(a + "/s" + r + d + ".js", "script");
-                for (let e = 0; e < h.length; e++) {
-                    var g = h[e].id,
-                        m = h[e].scriptVersion;
-                    i([f, "/wpm@", o || "latest", "@", r, "/web-pixel-", g, "@", m, "/sandbox/worker.", l, ".js"].join(""), "script")
-                }
-                for (let e = 0; e < y.length; e++) {
-                    var v = y[e].id,
-                        b = y[e].scriptVersion;
-                    i([f, "/wpm@", o || "latest", "@", r, "/web-pixel-", v, "@", b, "/sandbox", window.location.pathname, window.location.search].join(""))
-                }
-            }
-            var _, x, S, C, L, E, j, B, P = a + "/" + c + r + d + ".js";
-            _ = {
-                src: P,
-                async: !0,
-                onload: function() {
-                    if (e) {
-                        var a = window.webPixelsManager.init(e);
-                        n(a), window.Shopify.analytics.replayQueue.forEach((function(e) {
-                            a.publishCustomEvent(e[0], e[1], e[2])
-                        })), window.Shopify.analytics.replayQueue = [], window.Shopify.analytics.publish = a.publishCustomEvent
-                    }
-                },
-                onerror: function() {
-                    var n = (e.storefrontBaseUrl ? e.storefrontBaseUrl.replace(/\/$/, "") : self.location.origin) + "/.well-known/shopify/monorail/unstable/produce_batch",
-                        a = JSON.stringify({
-                            metadata: {
-                                event_sent_at_ms: (new Date).getTime()
-                            },
-                            events: [{
-                                schema_id: "web_pixels_manager_load/2.0",
-                                payload: {
-                                    version: o || "latest",
-                                    page_url: self.location.href,
-                                    status: "failed",
-                                    error_msg: P + " has failed to load"
-                                },
-                                metadata: {
-                                    event_created_at_ms: (new Date).getTime()
-                                }
-                            }]
-                        });
-                    try {
-                        if (self.navigator.sendBeacon.bind(self.navigator)(n, a)) return !0
-                    } catch (e) {}
-                    const t = new XMLHttpRequest;
-                    try {
-                        return t.open("POST", n, !0), t.setRequestHeader("Content-Type", "text/plain"), t.send(a), !0
-                    } catch (e) {
-                        console && console.warn && console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")
-                    }
-                    return !1
-                }
-            }, x = document.createElement("script"), S = _.src, C = _.async || !0, L = _.onload, E = _.onerror, j = document.head, B = document.body, x.async = C, x.src = S, L && x.addEventListener("load", L), E && x.addEventListener("error", E), j ? j.appendChild(x) : B ? B.appendChild(x) : console.error("Did not find a head or body element to append the script")
-        })({
-            shopId: 68522377522,
-            storefrontBaseUrl: "https://polomanor.vn",
-            cdnBaseUrl: "https://cdn.shopify.com",
-            surface: "storefront-renderer",
-            enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint", "web_pixels_shopify_pixel_validation"],
-            webPixelExtensionBaseUrl: "https://cdn.shopify.com",
-            webPixelsConfigList: [{
-                "id": "shopify-app-pixel",
-                "configuration": "{}",
-                "eventPayloadVersion": "v1",
-                "runtimeContext": "STRICT",
-                "scriptVersion": "0524",
-                "apiClientId": "shopify-pixel",
-                "type": "APP"
-            }, {
-                "id": "shopify-custom-pixel",
-                "eventPayloadVersion": "v1",
-                "runtimeContext": "LAX",
-                "scriptVersion": "0524",
-                "apiClientId": "shopify-pixel",
-                "type": "CUSTOM"
-            }],
-            initData: {
-                "cart": null,
-                "checkout": null,
-                "customer": null,
-                "productVariants": []
-            },
-        }, function pageEvents(webPixelsManagerAPI) {
-            webPixelsManagerAPI.publish("page_viewed");
-        }, "https://cdn.shopify.com", "browser", "0.0.271", "2f8f7cf0w6539f1d1p481d1c57m6aa61b81");
-    </script>
-
-    <!-- DRAWER -->
     <template id="drawer-default-template">
-        <style>
-            [hidden] {
-                display: none !important;
-            }
-        </style>
+        <style>[hidden] {display: none !important;}</style>
 
-        <button part="outside-close-button" is="close-button" aria-label="Đóng"><svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
+        <button part="outside-close-button" is="close-button" aria-label="Đóng">
+            <svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
                 <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
-            </svg></button>
-
+            </svg>
+        </button>
         <div part="overlay"></div>
-
         <div part="content">
             <header part="header">
                 <slot name="header"></slot>
 
-                <button part="close-button" is="close-button" aria-label="Đóng"><svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
+                <button part="close-button" is="close-button" aria-label="Đóng">
+                    <svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
                         <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
-                    </svg></button>
+                    </svg>
+                </button>
             </header>
 
             <div part="body">
@@ -1518,11 +124,12 @@
         </div>
     </template>
 
-    <!-- POPOVER -->
     <template id="popover-default-template">
-        <button part="outside-close-button" is="close-button" aria-label="Đóng"><svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
+        <button part="outside-close-button" is="close-button" aria-label="Đóng">
+            <svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
                 <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
-            </svg></button>
+            </svg>
+        </button>
 
         <div part="overlay"></div>
 
@@ -1537,82 +144,28 @@
         </div>
     </template><a href="#main" class="skip-to-content sr-only">Chuyển đến nội dung</a>
     <aside id="shopify-section-announcement-bar" class="shopify-section shopify-section--announcement-bar">
-        <style>
-            :root {
-                --sticky-announcement-bar-enabled: 0;
-            }
-        </style><height-observer variable="announcement-bar">
-            <div class="announcement-bar bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;"><marquee-text scrolling-speed="14" class="announcement-bar__scrolling-list" style="--marquee-animation-duration:12.294s;"><span class="announcement-bar__item">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span><span class="announcement-bar__item" aria-hidden="true">
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">Tặng quần Boxer cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                        <p class="bold text-xs"><a href="https://polomanor.vn/collections/all-sp">FREESHIP cho đơn hàng từ 500K</a></p>
-
-                        <span class="shape-circle shape--sm"></span>
-                    </span></marquee-text></div>
+        <style> :root {--sticky-announcement-bar-enabled: 0;}</style>
+        <height-observer variable="announcement-bar">
+            <div class="announcement-bar bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;">
+                <marquee-text scrolling-speed="14" class="announcement-bar__scrolling-list" style="--marquee-animation-duration:12.294s;">
+                    <span class="announcement-bar__item">
+                        <p class="bold text-xs"><a href="#">Tặng quần Boxer cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                        <p class="bold text-xs"><a href="#">FREESHIP cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                    </span>
+                    <span class="announcement-bar__item" aria-hidden="true">
+                        <p class="bold text-xs"><a href="#">Tặng quần Boxer cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                        <p class="bold text-xs"><a href="#">FREESHIP cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                    </span>
+                    <span class="announcement-bar__item" aria-hidden="true">
+                        <p class="bold text-xs"><a href="#">Tặng quần Boxer cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                        <p class="bold text-xs"><a href="#">FREESHIP cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                    </span>
+                    <span class="announcement-bar__item" aria-hidden="true">
+                        <p class="bold text-xs"><a href="#">Tặng quần Boxer cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                        <p class="bold text-xs"><a href="#">FREESHIP cho đơn hàng từ 500K</a></p><span class="shape-circle shape--sm"></span>
+                    </span>
+                </marquee-text>
+            </div>
         </height-observer>
     </aside>
     <header id="shopify-section-header" class="shopify-section shopify-section--header">
@@ -1657,32 +210,41 @@
                             <button type="button" class="tap-area lg:hidden" aria-controls="header-sidebar-menu">
                                 <span class="sr-only">Mở menu</span><svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-hamburger" viewBox="0 0 22 22">
                                     <path d="M1 5h20M1 11h20M1 17h20" stroke="currentColor" stroke-linecap="round"></path>
-                                </svg></button>
+                                </svg>
+                            </button>
 
-                            <a href="https://polomanor.vn/search" class="tap-area sm:hidden" aria-controls="search-drawer">
-                                <span class="sr-only">Tìm kiếm</span><svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-search" viewBox="0 0 22 22">
+                            <a href="#" class="tap-area sm:hidden" aria-controls="search-drawer">
+                                <span class="sr-only">Tìm kiếm</span>
+                                <svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-search" viewBox="0 0 22 22">
                                     <circle cx="11" cy="10" r="7" fill="none" stroke="currentColor"></circle>
                                     <path d="m16 15 3 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg></a>
+                                </svg>
+                            </a>
                             <nav class="header__link-list  wrap" role="navigation">
                                 <ul class="contents" role="list">
-
-                                    <li><a href="https://polomanor.vn/collections/san-pham-moi" class="bold link-faded-reverse">New in</a></li>
+                                    <li><a href="#" class="bold link-faded-reverse">New in</a></li>
 
                                     <li>
                                         <details class="relative" is="dropdown-disclosure" trigger="click">
-                                            <summary class="text-with-icon gap-2.5 bold link-faded-reverse" data-url="https://polomanor.vn/collections/all-sp">Tất cả sản phẩm<svg role="presentation" focusable="false" width="10" height="7" class="icon icon-chevron-bottom" viewBox="0 0 10 7">
+                                            <summary class="text-with-icon gap-2.5 bold link-faded-reverse" data-url="#">
+                                                Tất cả sản phẩm
+                                                <svg role="presentation" focusable="false" width="10" height="7" class="icon icon-chevron-bottom" viewBox="0 0 10 7">
                                                     <path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
-                                                </svg></summary>
+                                                </svg>
+                                            </summary>
 
                                             <div class="dropdown-menu">
                                                 <ul class="contents" role="list">
-                                                    <li><a href="https://polomanor.vn/collections" class="dropdown-menu__item group">
+                                                    <li>
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Bộ sưu tập</span></span>
-                                                        </a></li>
-                                                    <li><a href="https://polomanor.vn/collections/all-sp" class="dropdown-menu__item group">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Tất cả sản phẩm</span></span>
-                                                        </a></li>
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </details>
@@ -1690,27 +252,40 @@
 
                                     <li>
                                         <details class="relative" is="dropdown-disclosure" trigger="click">
-                                            <summary class="text-with-icon gap-2.5 bold link-faded-reverse" data-url="https://polomanor.vn/">Chính sách<svg role="presentation" focusable="false" width="10" height="7" class="icon icon-chevron-bottom" viewBox="0 0 10 7">
+                                            <summary class="text-with-icon gap-2.5 bold link-faded-reverse" data-url="#">
+                                                Chính sách
+                                                <svg role="presentation" focusable="false" width="10" height="7" class="icon icon-chevron-bottom" viewBox="0 0 10 7">
                                                     <path d="m1 1 4 4 4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
-                                                </svg></summary>
+                                                </svg>
+                                            </summary>
 
                                             <div class="dropdown-menu" style="opacity: 0;">
                                                 <ul class="contents" role="list">
-                                                    <li style="opacity: 1; transform: translateY(0px);"><a href="https://polomanor.vn/pages/chinh-sach-kiem-hang" class="dropdown-menu__item group">
+                                                    <li style="opacity: 1; transform: translateY(0px);">
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Chính sách kiểm hàng</span></span>
-                                                        </a></li>
-                                                    <li style="opacity: 1; transform: translateY(0px);"><a href="https://polomanor.vn/pages/chinh-sach" class="dropdown-menu__item group">
+                                                        </a>
+                                                    </li>
+                                                    <li style="opacity: 1; transform: translateY(0px);">
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Chính sách đổi / hoàn trả</span></span>
-                                                        </a></li>
-                                                    <li style="opacity: 1; transform: translateY(0px);"><a href="https://polomanor.vn/pages/chinh-sach-bao-hanh" class="dropdown-menu__item group">
+                                                        </a>
+                                                    </li>
+                                                    <li style="opacity: 1; transform: translateY(0px);">
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Chính sách bảo hành</span></span>
-                                                        </a></li>
-                                                    <li style="opacity: 1; transform: translateY(0px);"><a href="https://polomanor.vn/pages/chinh-sach-bao-mat" class="dropdown-menu__item group">
+                                                        </a>
+                                                    </li>
+                                                    <li style="opacity: 1; transform: translateY(0px);">
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Chính sách bảo mật</span></span>
-                                                        </a></li>
-                                                    <li style="opacity: 1; transform: translateY(0px);"><a href="https://polomanor.vn/pages/dieu-khoan-su-dung" class="dropdown-menu__item group">
+                                                        </a>
+                                                    </li>
+                                                    <li style="opacity: 1; transform: translateY(0px);">
+                                                        <a href="#" class="dropdown-menu__item group">
                                                             <span><span class="reversed-link">Điều khoản sử dụng</span></span>
-                                                        </a></li>
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </details>
@@ -1720,20 +295,37 @@
                         </div>
                     </div>
                     <h1 class="header__logo">
-                        <a href="https://polomanor.vn/"><span class="sr-only">Polomanor</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_logo_final_-04_26926623-9b97-48cd-86d7-104da3a3b5f0.png?v=1671508382&amp;width=2572" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_logo_final_-04_26926623-9b97-48cd-86d7-104da3a3b5f0.png?v=1671508382&amp;width=160 160w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_logo_final_-04_26926623-9b97-48cd-86d7-104da3a3b5f0.png?v=1671508382&amp;width=320 320w" width="2572" height="283" sizes="160px" class="header__logo-image"></a>
+                        <a href="#">
+                            <span class="sr-only">Polomanor</span>
+                            <img 
+                                src="./assets/images/logo-final.webp" alt="" 
+                                srcset="
+                                ./assets/images/logo-final.webp 160w, 
+                                ./assets/images/logo-final.webp 320w
+                                " 
+                                width="2572" height="283" sizes="160px" class="header__logo-image">
+                        </a>
                     </h1>
 
                     <div class="header__secondary-nav">
-                        <div class="header__icon-list"><a href="https://polomanor.vn/search" class="hidden tap-area sm:block" aria-controls="search-drawer">
-                                <span class="sr-only">Tìm kiếm</span><svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-search" viewBox="0 0 22 22">
+                        <div class="header__icon-list">
+                            <a href="#" class="hidden tap-area sm:block" aria-controls="search-drawer">
+                                <span class="sr-only">Tìm kiếm</span>
+                                <svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-search" viewBox="0 0 22 22">
                                     <circle cx="11" cy="10" r="7" fill="none" stroke="currentColor"></circle>
                                     <path d="m16 15 3 3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg></a><a href="https://polomanor.vn/account" class="hidden tap-area sm:block">
-                                <span class="sr-only">Tài khoản</span><svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-account" viewBox="0 0 22 22">
+                                </svg>
+                            </a>
+                            <a href="#" class="hidden tap-area sm:block">
+                                <span class="sr-only">Tài khoản</span>
+                                <svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-account" viewBox="0 0 22 22">
                                     <circle cx="11" cy="7" r="4" fill="none" stroke="currentColor"></circle>
                                     <path d="M3.5 19c1.421-2.974 4.247-5 7.5-5s6.079 2.026 7.5 5" fill="none" stroke="currentColor" stroke-linecap="round"></path>
-                                </svg></a><a href="https://polomanor.vn/cart" class="relative tap-area" aria-controls="cart-drawer">
-                                <span class="sr-only">Giỏ hàng</span><svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-cart" viewBox="0 0 22 22">
+                                </svg>
+                            </a>
+                            <a href="#" class="relative tap-area" aria-controls="cart-drawer">
+                                <span class="sr-only">Giỏ hàng</span>
+                                <svg role="presentation" stroke-width="1.5" focusable="false" width="22" height="22" class="icon icon-cart" viewBox="0 0 22 22">
                                     <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                                 <div class="header__cart-count">
@@ -1744,56 +336,79 @@
                     </div>
                 </div>
             </store-header>
-        </height-observer><navigation-drawer mobile-opening="left" open-from="left" id="header-sidebar-menu" class="navigation-drawer drawer lg:hidden" role="dialog" aria-modal="true">
+        </height-observer>
+        
+        <navigation-drawer mobile-opening="left" open-from="left" id="header-sidebar-menu" class="navigation-drawer drawer lg:hidden" role="dialog" aria-modal="true">
             <button is="close-button" aria-label="Đóng"><svg role="presentation" stroke-width="2" focusable="false" width="19" height="19" class="icon icon-close" viewBox="0 0 24 24">
                     <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
-                </svg></button>
+                </svg>
+            </button>
             <div class="panel-list__wrapper">
                 <div class="panel">
                     <div class="panel__wrapper">
                         <div class="panel__scroller v-stack gap-8">
                             <ul class="v-stack gap-4">
-                                <li class="h3 sm:h4"><a href="https://polomanor.vn/collections/san-pham-moi" class="group block w-full">
+                                <li class="h3 sm:h4">
+                                    <a href="#" class="group block w-full">
                                         <span><span class="reversed-link">New in</span></span>
-                                    </a></li>
-                                <li class="h3 sm:h4"><button class="text-with-icon w-full group justify-between" aria-expanded="false" data-panel="1-0">
+                                    </a>
+                                </li>
+                                <li class="h3 sm:h4">
+                                    <button class="text-with-icon w-full group justify-between" aria-expanded="false" data-panel="1-0">
                                         <span>Tất cả sản phẩm</span>
-                                        <span class="circle-chevron group-hover:colors group-expanded:colors"><svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
+                                        <span class="circle-chevron group-hover:colors group-expanded:colors">
+                                            <svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
                                                 <path d="m.75 7 3-3-3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-                                            </svg></span>
-                                    </button></li>
-                                <li class="h3 sm:h4"><button class="text-with-icon w-full group justify-between" aria-expanded="false" data-panel="1-1">
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="h3 sm:h4">
+                                    <button class="text-with-icon w-full group justify-between" aria-expanded="false" data-panel="1-1">
                                         <span>Chính sách</span>
-                                        <span class="circle-chevron group-hover:colors group-expanded:colors"><svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
+                                        <span class="circle-chevron group-hover:colors group-expanded:colors">
+                                            <svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
                                                 <path d="m.75 7 3-3-3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-                                            </svg></span>
-                                    </button></li>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </li>
                             </ul>
                         </div>
                         <div class="panel-footer v-stack gap-5">
                             <ul class="social-media " role="list">
                                 <li>
-                                    <a href="https://www.facebook.com/Polomanor.official" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Facebook"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-facebook" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Facebook">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-facebook" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.183 21.85v-8.868H7.2V9.526h2.983V6.982a4.17 4.17 0 0 1 4.44-4.572 22.33 22.33 0 0 1 2.667.144v3.084h-1.83a1.44 1.44 0 0 0-1.713 1.68v2.208h3.423l-.447 3.456h-2.97v8.868h-3.57Z" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/polomanor.vn" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Instagram"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-instagram" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Instagram">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-instagram" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.4c-2.607 0-2.934.011-3.958.058-1.022.046-1.72.209-2.33.446a4.705 4.705 0 0 0-1.7 1.107 4.706 4.706 0 0 0-1.108 1.7c-.237.611-.4 1.31-.446 2.331C2.41 9.066 2.4 9.392 2.4 12c0 2.607.011 2.934.058 3.958.046 1.022.209 1.72.446 2.33a4.706 4.706 0 0 0 1.107 1.7c.534.535 1.07.863 1.7 1.108.611.237 1.309.4 2.33.446 1.025.047 1.352.058 3.959.058s2.934-.011 3.958-.058c1.022-.046 1.72-.209 2.33-.446a4.706 4.706 0 0 0 1.7-1.107 4.706 4.706 0 0 0 1.108-1.7c.237-.611.4-1.31.446-2.33.047-1.025.058-1.352.058-3.959s-.011-2.934-.058-3.958c-.047-1.022-.209-1.72-.446-2.33a4.706 4.706 0 0 0-1.107-1.7 4.705 4.705 0 0 0-1.7-1.108c-.611-.237-1.31-.4-2.331-.446C14.934 2.41 14.608 2.4 12 2.4Zm0 1.73c2.563 0 2.867.01 3.88.056.935.042 1.443.199 1.782.33.448.174.768.382 1.104.718.336.336.544.656.718 1.104.131.338.287.847.33 1.783.046 1.012.056 1.316.056 3.879 0 2.563-.01 2.867-.056 3.88-.043.935-.199 1.444-.33 1.782a2.974 2.974 0 0 1-.719 1.104 2.974 2.974 0 0 1-1.103.718c-.339.131-.847.288-1.783.33-1.012.046-1.316.056-3.88.056-2.563 0-2.866-.01-3.878-.056-.936-.042-1.445-.199-1.783-.33a2.974 2.974 0 0 1-1.104-.718 2.974 2.974 0 0 1-.718-1.104c-.131-.338-.288-.847-.33-1.783-.047-1.012-.056-1.316-.056-3.879 0-2.563.01-2.867.056-3.88.042-.935.199-1.443.33-1.782.174-.448.382-.768.718-1.104a2.974 2.974 0 0 1 1.104-.718c.338-.131.847-.288 1.783-.33C9.133 4.14 9.437 4.13 12 4.13Zm0 11.07a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm0-8.13a4.93 4.93 0 1 0 0 9.86 4.93 4.93 0 0 0 0-9.86Zm6.276-.194a1.152 1.152 0 1 1-2.304 0 1.152 1.152 0 0 1 2.304 0Z" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.youtube.com/channel/UCwbTaxyQ4I0JR0oF7NJ8Ocg" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR YouTube"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-youtube" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR YouTube">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-youtube" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.44 5.243c.929.244 1.66.963 1.909 1.876.451 1.654.451 5.106.451 5.106s0 3.452-.451 5.106a2.681 2.681 0 0 1-1.91 1.876c-1.684.443-8.439.443-8.439.443s-6.754 0-8.439-.443a2.682 2.682 0 0 1-1.91-1.876c-.45-1.654-.45-5.106-.45-5.106s0-3.452.45-5.106a2.681 2.681 0 0 1 1.91-1.876c1.685-.443 8.44-.443 8.44-.443s6.754 0 8.438.443Zm-5.004 6.982L9.792 15.36V9.091l5.646 3.134Z" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tiktok.com/@polomanor.official" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR TikTok"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-tiktok" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR TikTok">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-tiktok" viewBox="0 0 24 24">
                                             <path d="M20.027 10.168a5.125 5.125 0 0 1-4.76-2.294v7.893a5.833 5.833 0 1 1-5.834-5.834c.122 0 .241.011.361.019v2.874c-.12-.014-.237-.036-.36-.036a2.977 2.977 0 0 0 0 5.954c1.644 0 3.096-1.295 3.096-2.94L12.56 2.4h2.75a5.122 5.122 0 0 0 4.72 4.573v3.195" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                             </ul>
-                            <div class="panel-footer__localization-wrapper h-stack gap-6 border-t md:hidden"><a href="https://polomanor.vn/account" class="panel-footer__account-link bold text-sm">Tài khoản</a></div>
+                            <div class="panel-footer__localization-wrapper h-stack gap-6 border-t md:hidden">
+                                <a href="#" class="panel-footer__account-link bold text-sm">Tài khoản</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1801,35 +416,60 @@
                     <div class="panel__wrapper" hidden="">
                         <ul class="v-stack gap-4">
                             <li class="lg:hidden">
-                                <button class="text-with-icon h6 text-subdued" data-panel="0"><svg role="presentation" focusable="false" width="7" height="10" class="icon icon-chevron-left reverse-icon" viewBox="0 0 7 10">
+                                <button class="text-with-icon h6 text-subdued" data-panel="0">
+                                    <svg role="presentation" focusable="false" width="7" height="10" class="icon icon-chevron-left reverse-icon" viewBox="0 0 7 10">
                                         <path d="M6 1 2 5l4 4" fill="none" stroke="currentColor" stroke-width="2"></path>
-                                    </svg>Tất cả sản phẩm
+                                    </svg>
+                                    Tất cả sản phẩm
                                 </button>
                             </li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/collections"><span><span class="reversed-link">Bộ sưu tập</span></span>
-                                </a></li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/collections/all-sp"><span><span class="reversed-link">Tất cả sản phẩm</span></span>
-                                </a></li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Bộ sưu tập</span></span>
+                                </a>
+                            </li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Tất cả sản phẩm</span></span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div class="panel__wrapper" hidden="">
                         <ul class="v-stack gap-4">
                             <li class="lg:hidden">
-                                <button class="text-with-icon h6 text-subdued" data-panel="0"><svg role="presentation" focusable="false" width="7" height="10" class="icon icon-chevron-left reverse-icon" viewBox="0 0 7 10">
+                                <button class="text-with-icon h6 text-subdued" data-panel="0">
+                                    <svg role="presentation" focusable="false" width="7" height="10" class="icon icon-chevron-left reverse-icon" viewBox="0 0 7 10">
                                         <path d="M6 1 2 5l4 4" fill="none" stroke="currentColor" stroke-width="2"></path>
-                                    </svg>Chính sách
+                                    </svg>
+                                    Chính sách
                                 </button>
                             </li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/pages/chinh-sach-kiem-hang"><span><span class="reversed-link">Chính sách kiểm hàng</span></span>
-                                </a></li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/pages/chinh-sach"><span><span class="reversed-link">Chính sách đổi / hoàn trả</span></span>
-                                </a></li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/pages/chinh-sach-bao-hanh"><span><span class="reversed-link">Chính sách bảo hành</span></span>
-                                </a></li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/pages/chinh-sach-bao-mat"><span><span class="reversed-link">Chính sách bảo mật</span></span>
-                                </a></li>
-                            <li class="h3 sm:h4"><a class="group block w-full" href="https://polomanor.vn/pages/dieu-khoan-su-dung"><span><span class="reversed-link">Điều khoản sử dụng</span></span>
-                                </a></li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Chính sách kiểm hàng</span></span>
+                                </a>
+                            </li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Chính sách đổi / hoàn trả</span></span>
+                                </a>
+                            </li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Chính sách bảo hành</span></span>
+                                </a>
+                            </li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Chính sách bảo mật</span></span>
+                                </a>
+                            </li>
+                            <li class="h3 sm:h4">
+                                <a class="group block w-full" href="#">
+                                    <span><span class="reversed-link">Điều khoản sử dụng</span></span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -1840,98 +480,94 @@
                 document.documentElement.style.setProperty(`--header-height`, `${document.getElementById('shopify-section-header').getBoundingClientRect().height.toFixed(1)}px`);
             })();
         </script>
-
-
     </header>
-    <script id="boomr-scr-as" src="https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js" async=""></script>
-    <div id="WebPixelsManagerSandboxContainer"><iframe src="https://polomanor.vn/wpm@0.0.271@2f8f7cf0w6539f1d1p481d1c57m6aa61b81/sandbox/" id="web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX" name="web-pixel-sandbox-CUSTOM-shopify-custom-pixel-LAX" sandbox="allow-scripts allow-forms" tabindex="-1" aria-hidden="true" style="display:none; height:0; width:0; visibility: hidden;"></iframe></div>
-    <div id="shopify-section-newsletter-popup" class="shopify-section shopify-section--popup"></div>
-    <div id="shopify-section-cart-drawer" class="shopify-section"><cart-drawer class="cart-drawer drawer drawer--lg" id="cart-drawer" role="dialog" aria-modal="true"><button is="close-button" aria-label="Đóng"><svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
-                    <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
-                </svg></button>
-
-            <div class="empty-state align-self-center">
-                <div class="empty-state__icon-wrapper"><svg role="presentation" stroke-width="1" focusable="false" width="32" height="32" class="icon icon-cart" viewBox="0 0 22 22">
-                        <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg><span class="count-bubble count-bubble--lg">0</span>
+        <div id="shopify-section-cart-drawer" class="shopify-section">
+            <cart-drawer class="cart-drawer drawer drawer--lg" id="cart-drawer" role="dialog" aria-modal="true">
+                <button is="close-button" aria-label="Đóng">
+                    <svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
+                        <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
+                    </svg>
+                </button>
+                <div class="empty-state align-self-center">
+                    <div class="empty-state__icon-wrapper">
+                        <svg role="presentation" stroke-width="1" focusable="false" width="32" height="32" class="icon icon-cart" viewBox="0 0 22 22">
+                            <path d="M11 7H3.577A2 2 0 0 0 1.64 9.497l2.051 8A2 2 0 0 0 5.63 19H16.37a2 2 0 0 0 1.937-1.503l2.052-8A2 2 0 0 0 18.422 7H11Zm0 0V1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="count-bubble count-bubble--lg">0</span>
+                    </div>
+                    <div class="prose">
+                        <p class="h5">Giỏ hàng của bạn đang trống</p>
+                        <a class="button button--xl" href="#">Tiếp tục mua sắm</a>
+                    </div>
                 </div>
-
-                <div class="prose">
-                    <p class="h5">Giỏ hàng của bạn đang trống</p>
-                    <a class="button button--xl" href="https://polomanor.vn/collections/all">Tiếp tục mua sắm</a>
-                </div>
-            </div>
-        </cart-drawer>
-
-    </div>
-    <div id="shopify-section-search-drawer" class="shopify-section"><search-drawer class="search-drawer  drawer drawer--lg" id="search-drawer" role="dialog" aria-modal="true">
-            <form action="https://polomanor.vn/search" method="get" class="v-stack gap-5 sm:gap-8" role="search">
-                <div class="search-input">
-                    <input type="search" name="q" placeholder="Tìm kiếm cho .." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Tìm kiếm">
-                    <button type="reset" class="text-subdued">Xóa</button>
-                    <button type="button" is="close-button">
-                        <span class="sr-only">Đóng</span><svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
-                            <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
-                        </svg></button>
-                </div>
-
-
-                <input type="hidden" name="type" value="product">
-                <input type="hidden" name="options[prefix]" value="last">
-                <input type="hidden" name="options[unavailable_products]" value="last">
-
-                <predictive-search class="predictive-search" section-id="search-drawer" resources="product,article,page,collection" unavailable-products="last">
-                    <div slot="results"></div>
-
-                    <div slot="loading">
-                        <div class="v-stack gap-5 sm:gap-6 ">
-                            <div class="h-stack gap-4 sm:gap-5"><span class="skeleton skeleton--tab"></span><span class="skeleton skeleton--tab"></span><span class="skeleton skeleton--tab"></span><span class="skeleton skeleton--tab"></span></div>
-
-                            <div class="v-stack gap-4 sm:gap-6">
-                                <div class="h-stack align-center gap-5 sm:gap-6">
-                                    <span class="skeleton skeleton--thumbnail"></span>
-
-                                    <div class="v-stack gap-3 w-full">
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
-                                    </div>
+            </cart-drawer>
+        </div>
+        <div id="shopify-section-search-drawer" class="shopify-section">
+            <search-drawer class="search-drawer  drawer drawer--lg" id="search-drawer" role="dialog" aria-modal="true">
+                <form action="#" method="get" class="v-stack gap-5 sm:gap-8" role="search">
+                    <div class="search-input">
+                        <input type="search" name="s" placeholder="Tìm kiếm cho .." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Tìm kiếm">
+                        <button type="reset" class="text-subdued">Xóa</button>
+                        <button type="button" is="close-button">
+                            <span class="sr-only">Đóng</span>
+                            <svg role="presentation" stroke-width="2" focusable="false" width="24" height="24" class="icon icon-close" viewBox="0 0 24 24">
+                                <path d="M17.658 6.343 6.344 17.657M17.658 17.657 6.344 6.343" stroke="currentColor"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <input type="hidden" name="type" value="product">
+                    <input type="hidden" name="options[prefix]" value="last">
+                    <input type="hidden" name="options[unavailable_products]" value="last">
+                    <predictive-search class="predictive-search" section-id="search-drawer" resources="product,article,page,collection" unavailable-products="last">
+                        <div slot="results"></div>
+                        <div slot="loading">
+                            <div class="v-stack gap-5 sm:gap-6 ">
+                                <div class="h-stack gap-4 sm:gap-5">
+                                    <span class="skeleton skeleton--tab"></span>
+                                    <span class="skeleton skeleton--tab"></span>
+                                    <span class="skeleton skeleton--tab"></span>
+                                    <span class="skeleton skeleton--tab"></span>
                                 </div>
-                                <div class="h-stack align-center gap-5 sm:gap-6">
-                                    <span class="skeleton skeleton--thumbnail"></span>
-
-                                    <div class="v-stack gap-3 w-full">
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                <div class="v-stack gap-4 sm:gap-6">
+                                    <div class="h-stack align-center gap-5 sm:gap-6">
+                                        <span class="skeleton skeleton--thumbnail"></span>
+                                        <div class="v-stack gap-3 w-full">
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="h-stack align-center gap-5 sm:gap-6">
-                                    <span class="skeleton skeleton--thumbnail"></span>
-
-                                    <div class="v-stack gap-3 w-full">
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                    <div class="h-stack align-center gap-5 sm:gap-6">
+                                        <span class="skeleton skeleton--thumbnail"></span>
+                                        <div class="v-stack gap-3 w-full">
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="h-stack align-center gap-5 sm:gap-6">
-                                    <span class="skeleton skeleton--thumbnail"></span>
-
-                                    <div class="v-stack gap-3 w-full">
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
-                                        <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                    <div class="h-stack align-center gap-5 sm:gap-6">
+                                        <span class="skeleton skeleton--thumbnail"></span>
+                                        <div class="v-stack gap-3 w-full">
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="h-stack align-center gap-5 sm:gap-6">
+                                        <span class="skeleton skeleton--thumbnail"></span>
+                                        <div class="v-stack gap-3 w-full">
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 20%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 80%"></span>
+                                            <span class="skeleton skeleton--text" style="--skeleton-text-width: 40%"></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </predictive-search>
-            </form>
-        </search-drawer>
-
-    </div>
+                    </predictive-search>
+                </form>
+            </search-drawer>
+        </div>
     <main role="main" id="main" class="anchor">
         <section id="shopify-section-template--17140497613106__slideshow" class="shopify-section shopify-section--slideshow">
             <style>
@@ -1941,93 +577,280 @@
                     --slideshow-controls-color: 255 255 255;
                 }
 
-                #block-slide-2 {
+                .acm_block_slider {
                     --slideshow-slide-background: linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%);
                     --slideshow-slide-controls-background: ;
                     --slideshow-slide-controls-color: 255 255 255;
                 }
-
-                #block-slide-1 {
-                    --slideshow-slide-background: linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%);
-                    --slideshow-slide-controls-background: ;
-                    --slideshow-slide-controls-color: 255 255 255;
-                }
-
-                #block-d08e2a3c-ef6a-4974-a7ca-22f9b2cae219 {
-                    --slideshow-slide-background: linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%);
-                    --slideshow-slide-controls-background: ;
-                    --slideshow-slide-controls-color: 255 255 255;
-                }
-
-                #block-2ac48e15-84b4-4474-bb5d-51d0b9905171 {
-                    --slideshow-slide-background: linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%);
-                    --slideshow-slide-controls-background: ;
-                    --slideshow-slide-controls-color: 255 255 255;
-                }
-            </style><x-slideshow class="slideshow  slideshow--multiple-slides" style="--slideshow-controls-background: ; --slideshow-controls-color: 255 255 255;"><slideshow-carousel id="slideshow-template--17140497613106__slideshow" class="slideshow__carousel" reveal-on-scroll="true" selector=".slideshow__slide" transition="fade_with_text" autoplay="6" role="region" style="opacity: 1;"><custom-cursor class="slideshow__cursor circle-button circle-button--lg circle-button--fill" aria-hidden="true" style="translate: -21px 47.719px;"><svg role="presentation" focusable="false" width="7" height="10" class="icon icon-chevron-right" viewBox="0 0 7 10">
+            </style>
+            
+            <x-slideshow class="slideshow  slideshow--multiple-slides" style="--slideshow-controls-background: ; --slideshow-controls-color: 255 255 255;">
+                <slideshow-carousel id="slideshow-template--17140497613106__slideshow" class="slideshow__carousel" reveal-on-scroll="true" selector=".slideshow__slide" transition="fade_with_text" autoplay="6" role="region" style="opacity: 1;">
+                    <custom-cursor class="slideshow__cursor circle-button circle-button--lg circle-button--fill" aria-hidden="true" style="translate: -21px 47.719px;">
+                        <svg role="presentation" focusable="false" width="7" height="10" class="icon icon-chevron-right" viewBox="0 0 7 10">
                             <path d="m1 9 4-4-4-4" fill="none" stroke="currentColor" stroke-width="2"></path>
-                        </svg><svg class="slideshow__cursor-ring" viewBox="-28 -28 56 56" width="56" height="56" fill="none" stroke="currentColor" stroke-width="2">
+                        </svg>
+                        <svg class="slideshow__cursor-ring" viewBox="-28 -28 56 56" width="56" height="56" fill="none" stroke="currentColor" stroke-width="2">
                             <circle r="27" stroke-dasharray="158.33626974092556" stroke-dashoffset="158.33626974092556px" style="stroke-dasharray: 169.011px, 169.011px;"></circle>
                         </svg>
-                    </custom-cursor><a id="block-slide-2" href="https://polomanor.vn/collections/artwork-collection" class="slideshow__slide" role="group" style="z-index: 0; opacity: 0; visibility: hidden;">
-                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 820px; --content-over-media-overlay: 0 0 0 / 0.0"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=2000" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=1800 1800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_desktop.jpg?v=1672812634&amp;width=2000 2000w" width="2000" height="705" loading="eager" fetchpriority="high" sizes="100vw" class="hidden sm:block" style="opacity: 1; transform: scale(1);"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=1226" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Artwork_collection_Web_mobile.jpg?v=1672812658&amp;width=1200 1200w" width="1226" height="1521" loading="eager" fetchpriority="high" sizes="100vw" class="sm:hidden" style="opacity: 1; transform: scale(1);">
+                    </custom-cursor>
+
+                    <a href="#" class="acm_block_slider slideshow__slide is-selected" role="group" style="opacity: 1; visibility: visible; z-index: 1;">
+                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 820px; --content-over-media-overlay: 0 0 0 / 0.0">
+                            <img 
+                                src="./assets/images/slider_pc_1.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_pc_1.webp 200w, 
+                                    ./assets/images/slider_pc_1.webp 300w, 
+                                    ./assets/images/slider_pc_1.webp 400w, 
+                                    ./assets/images/slider_pc_1.webp 500w, 
+                                    ./assets/images/slider_pc_1.webp 600w, 
+                                    ./assets/images/slider_pc_1.webp 700w, 
+                                    ./assets/images/slider_pc_1.webp 800w, 
+                                    ./assets/images/slider_pc_1.webp 900w, 
+                                    ./assets/images/slider_pc_1.webp 1000w, 
+                                    ./assets/images/slider_pc_1.webp 1200w, 
+                                    ./assets/images/slider_pc_1.webp 1400w, 
+                                    ./assets/images/slider_pc_1.webp 1600w, 
+                                    ./assets/images/slider_pc_1.webp 1800w, 
+                                    ./assets/images/slider_pc_1.webp 2000w" 
+                                width="2000" 
+                                height="705" 
+                                loading="eager" 
+                                fetchpriority="high" 
+                                sizes="100vw" 
+                                class="hidden sm:block" 
+                                style="opacity: 1; transform: scale(1);">
+                            <img 
+                                src="./assets/images/slider_mobile_1.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_mobile_1.webp 200w, 
+                                    ./assets/images/slider_mobile_1.webp 300w, 
+                                    ./assets/images/slider_mobile_1.webp 400w, 
+                                    ./assets/images/slider_mobile_1.webp 500w, 
+                                    ./assets/images/slider_mobile_1.webp 600w, 
+                                    ./assets/images/slider_mobile_1.webp 700w, 
+                                    ./assets/images/slider_mobile_1.webp 800w, 
+                                    ./assets/images/slider_mobile_1.webp 900w, 
+                                    ./assets/images/slider_mobile_1.webp 1000w, 
+                                    ./assets/images/slider_mobile_1.webp 1200w" 
+                                width="1226" 
+                                height="1521" 
+                                loading="eager" 
+                                fetchpriority="high" 
+                                sizes="100vw" 
+                                class="sm:hidden" 
+                                style="opacity: 1; transform: scale(1);">
                             <div class="place-self-center text-center sm:place-self-center sm:text-center  text-custom" style="--text-color: 255 255 255;">
                                 <div class="prose"></div>
                             </div>
                         </div>
                     </a>
-                    <div id="block-slide-1" class="slideshow__slide" role="group" style="opacity: 0; visibility: hidden; z-index: 0;">
-                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 400px; --content-over-media-overlay: 0 0 0 / 0.0"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=1904" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_-_dong_goi_hop_chinh_chu.jpg?v=1678847815&amp;width=1800 1800w" width="1904" height="680" loading="eager" fetchpriority="low" sizes="100vw" class="hidden sm:block" style="opacity: 1; transform: scale(1);"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=796" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/banner_web_mobile_-_dong_goi_hop_chinh_chu.jpg?v=1678847825&amp;width=700 700w" width="796" height="1062" loading="eager" fetchpriority="low" sizes="100vw" class="sm:hidden" style="opacity: 1; transform: scale(1);">
+
+                    <div class="acm_block_slider slideshow__slide" role="group" style="opacity: 0; visibility: hidden; z-index: 0;">
+                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 400px; --content-over-media-overlay: 0 0 0 / 0.0">
+                            <img 
+                                src="./assets/images/slider_pc_2.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_pc_2.webp 200w, 
+                                    ./assets/images/slider_pc_2.webp 300w, 
+                                    ./assets/images/slider_pc_2.webp 400w, 
+                                    ./assets/images/slider_pc_2.webp 500w, 
+                                    ./assets/images/slider_pc_2.webp 600w, 
+                                    ./assets/images/slider_pc_2.webp 700w, 
+                                    ./assets/images/slider_pc_2.webp 800w, 
+                                    ./assets/images/slider_pc_2.webp 900w, 
+                                    ./assets/images/slider_pc_2.webp 1000w, 
+                                    ./assets/images/slider_pc_2.webp 1200w, 
+                                    ./assets/images/slider_pc_2.webp 1400w, 
+                                    ./assets/images/slider_pc_2.webp 1600w, 
+                                    ./assets/images/slider_pc_2.webp 1800w" 
+                                width="1904" 
+                                height="680" 
+                                loading="eager" 
+                                fetchpriority="low" 
+                                sizes="100vw" 
+                                class="hidden sm:block" 
+                                style="opacity: 1; transform: scale(1);">
+                            <img 
+                                src="./assets/images/slider_mobile_2.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_mobile_2.webp, 
+                                    ./assets/images/slider_mobile_2.webp, 
+                                    ./assets/images/slider_mobile_2.webp, 
+                                    ./assets/images/slider_mobile_2.webp, 
+                                    ./assets/images/slider_mobile_2.webp, 
+                                    ./assets/images/slider_mobile_2.webp"
+                                width="796" 
+                                height="1062" 
+                                loading="eager" 
+                                fetchpriority="low" 
+                                sizes="100vw" 
+                                class="sm:hidden" 
+                                style="opacity: 1; transform: scale(1);">
                             <div class="place-self-center text-center sm:place-self-center sm:text-center  text-custom" style="--text-color: 255 255 255;">
                                 <div class="prose"></div>
                             </div>
                         </div>
-                    </div><a id="block-d08e2a3c-ef6a-4974-a7ca-22f9b2cae219" href="https://polomanor.vn/collections/san-pham-ban-chay-nhat-thang" class="slideshow__slide" role="group" style="opacity: 0; visibility: hidden; z-index: 0;">
-                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 780px; --content-over-media-overlay: 0 0 0 / 0.0"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=2800" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=1800 1800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=2000 2000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=2200 2200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=2400 2400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=2600 2600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869974&amp;width=2800 2800w" width="2800" height="1000" loading="eager" fetchpriority="low" sizes="100vw" class="hidden sm:block" style="opacity: 1; transform: scale(1);"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=1200" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san-pham-ban-chay-nhat-thang_1.jpg?v=1676869985&amp;width=1200 1200w" width="1200" height="1600" loading="eager" fetchpriority="low" sizes="100vw" class="sm:hidden" style="opacity: 1; transform: scale(1);">
-                            <div class="place-self-center text-center sm:place-self-center sm:text-center  text-custom" style="--text-color: 255 255 255;">
-                                <div class="prose"></div>
-                            </div>
-                        </div>
-                    </a><a id="block-2ac48e15-84b4-4474-bb5d-51d0b9905171" href="https://polomanor.vn/collections/san-pham-moi" class="slideshow__slide is-selected" role="group" style="opacity: 1; visibility: visible; z-index: 1;">
-                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 780px; --content-over-media-overlay: 0 0 0 / 0.0"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=2800" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=1800 1800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=2000 2000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=2200 2200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=2400 2400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=2600 2600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_dektop_trangchu_san_pham_moi_nhat_trong_thang_2_2159f150-f11b-4179-a85c-7c3101703b04.jpg?v=1676870457&amp;width=2800 2800w" width="2800" height="1000" loading="eager" fetchpriority="low" sizes="100vw" class="hidden sm:block" style="opacity: 1; transform: scale(1);"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=1200" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Web_mobile_trangchu_san_pham_moi_nhat_trong_thang.jpg?v=1676870467&amp;width=1200 1200w" width="1200" height="1600" loading="eager" fetchpriority="low" sizes="100vw" class="sm:hidden" style="opacity: 1; transform: scale(1);">
+                    </div>
+
+                    <a href="#" class="acm_block_slider slideshow__slide" role="group" style="opacity: 0; visibility: hidden; z-index: 0;">
+                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 780px; --content-over-media-overlay: 0 0 0 / 0.0">
+                            <img 
+                                src="./assets/images/slider_pc_3.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_pc_3.webp 200w, 
+                                    ./assets/images/slider_pc_3.webp 300w, 
+                                    ./assets/images/slider_pc_3.webp 400w, 
+                                    ./assets/images/slider_pc_3.webp 500w, 
+                                    ./assets/images/slider_pc_3.webp 600w, 
+                                    ./assets/images/slider_pc_3.webp 700w, 
+                                    ./assets/images/slider_pc_3.webp 800w, 
+                                    ./assets/images/slider_pc_3.webp 900w, 
+                                    ./assets/images/slider_pc_3.webp 1000w, 
+                                    ./assets/images/slider_pc_3.webp 1200w, 
+                                    ./assets/images/slider_pc_3.webp 1400w, 
+                                    ./assets/images/slider_pc_3.webp 1600w, 
+                                    ./assets/images/slider_pc_3.webp 1800w, 
+                                    ./assets/images/slider_pc_3.webp 2000w, 
+                                    ./assets/images/slider_pc_3.webp 2200w, 
+                                    ./assets/images/slider_pc_3.webp 2400w, 
+                                    ./assets/images/slider_pc_3.webp 2600w, 
+                                    ./assets/images/slider_pc_3.webp 2800w" 
+                                width="2800" 
+                                height="1000" 
+                                loading="eager" 
+                                fetchpriority="low" 
+                                sizes="100vw" 
+                                class="hidden sm:block" 
+                                style="opacity: 1; transform: scale(1);">
+                            <img 
+                                src="./assets/images/slider_mobile_3.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_mobile_3.webp 200w, 
+                                    ./assets/images/slider_mobile_3.webp 300w, 
+                                    ./assets/images/slider_mobile_3.webp 400w, 
+                                    ./assets/images/slider_mobile_3.webp 500w, 
+                                    ./assets/images/slider_mobile_3.webp 600w, 
+                                    ./assets/images/slider_mobile_3.webp 700w, 
+                                    ./assets/images/slider_mobile_3.webp 800w, 
+                                    ./assets/images/slider_mobile_3.webp 900w, 
+                                    ./assets/images/slider_mobile_3.webp 1000w, 
+                                    ./assets/images/slider_mobile_3.webp 1200w" 
+                                width="1200" 
+                                height="1600" 
+                                loading="eager" 
+                                fetchpriority="low" 
+                                sizes="100vw" 
+                                class="sm:hidden" 
+                                style="opacity: 1; transform: scale(1);">
                             <div class="place-self-center text-center sm:place-self-center sm:text-center  text-custom" style="--text-color: 255 255 255;">
                                 <div class="prose"></div>
                             </div>
                         </div>
                     </a>
-                    <div class="slideshow__controls" style="opacity: 1; transform: translateY(0px);"><page-dots class="numbered-dots" aria-controls="slideshow-template--17140497613106__slideshow"><button type="button" class="numbered-dots__item" aria-current="false">
+                    <a href="#" class="acm_block_slider slideshow__slide" role="group" style="opacity: 0; visibility: hidden; z-index: 0;">
+                        <div class="content-over-media content-over-media--auto " style="--content-over-media-content-max-width: 780px; --content-over-media-overlay: 0 0 0 / 0.0">
+                            <img 
+                                src="./assets/images/slider_pc_4.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/slider_pc_4.webp 200w, 
+                                    ./assets/images/slider_pc_4.webp 300w, 
+                                    ./assets/images/slider_pc_4.webp 400w, 
+                                    ./assets/images/slider_pc_4.webp 500w, 
+                                    ./assets/images/slider_pc_4.webp 600w, 
+                                    ./assets/images/slider_pc_4.webp 700w, 
+                                    ./assets/images/slider_pc_4.webp 800w, 
+                                    ./assets/images/slider_pc_4.webp 900w, 
+                                    ./assets/images/slider_pc_4.webp 1000w, 
+                                    ./assets/images/slider_pc_4.webp 1200w, 
+                                    ./assets/images/slider_pc_4.webp 1400w, 
+                                    ./assets/images/slider_pc_4.webp 1600w, 
+                                    ./assets/images/slider_pc_4.webp 1800w, 
+                                    ./assets/images/slider_pc_4.webp 2000w, 
+                                    ./assets/images/slider_pc_4.webp 2200w, 
+                                    ./assets/images/slider_pc_4.webp 2400w, 
+                                    ./assets/images/slider_pc_4.webp 2600w, 
+                                    ./assets/images/slider_pc_4.webp 2800w" 
+                                    width="2800" 
+                                    height="1000" 
+                                    loading="eager" 
+                                    fetchpriority="low" 
+                                    sizes="100vw" 
+                                    class="hidden sm:block" 
+                                    style="opacity: 1; transform: scale(1);">
+                                <img 
+                                    src="./assets/images/slider_mobile_4.webp" 
+                                    alt="" 
+                                    srcset="
+                                        ./assets/images/slider_pc_4.webp 200w, 
+                                        ./assets/images/slider_pc_4.webp 300w, 
+                                        ./assets/images/slider_pc_4.webp 400w, 
+                                        ./assets/images/slider_pc_4.webp 500w, 
+                                        ./assets/images/slider_pc_4.webp 600w, 
+                                        ./assets/images/slider_pc_4.webp 700w, 
+                                        ./assets/images/slider_pc_4.webp 800w, 
+                                        ./assets/images/slider_pc_4.webp 900w, 
+                                        ./assets/images/slider_pc_4.webp 1000w, 
+                                        ./assets/images/slider_pc_4.webp 1200w" 
+                                    width="1200" 
+                                    height="1600" 
+                                    loading="eager" 
+                                    fetchpriority="low" 
+                                    sizes="100vw" 
+                                    class="sm:hidden" 
+                                    style="opacity: 1; transform: scale(1);">
+                            <div class="place-self-center text-center sm:place-self-center sm:text-center  text-custom" style="--text-color: 255 255 255;">
+                                <div class="prose"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="slideshow__controls" style="opacity: 1; transform: translateY(0px);">
+                        <page-dots class="numbered-dots" aria-controls="slideshow-template--17140497613106__slideshow">
+                            <button type="button" class="numbered-dots__item" aria-current="true">
                                 <svg width="100%" height="100%" style="--percent: 0">
                                     <circle cx="50%" cy="50%" r="15"></circle>
                                     <circle cx="50%" cy="50%" r="15" style="stroke-dasharray: 93.6404px, 93.6404px;"></circle>
                                 </svg>
-
                                 <span>1</span>
-                            </button><button type="button" class="numbered-dots__item" aria-current="false">
+                            </button>
+                            
+                            <button type="button" class="numbered-dots__item" aria-current="false">
                                 <svg width="100%" height="100%" style="--percent: 0">
                                     <circle cx="50%" cy="50%" r="15"></circle>
                                     <circle cx="50%" cy="50%" r="15" style="stroke-dasharray: 93.6404px, 93.6404px;"></circle>
                                 </svg>
-
                                 <span>2</span>
-                            </button><button type="button" class="numbered-dots__item" aria-current="false">
+                            </button>
+                            
+                            <button type="button" class="numbered-dots__item" aria-current="false">
                                 <svg width="100%" height="100%" style="--percent: 0">
                                     <circle cx="50%" cy="50%" r="15"></circle>
                                     <circle cx="50%" cy="50%" r="15" style="stroke-dasharray: 93.6404px, 93.6404px;"></circle>
                                 </svg>
-
                                 <span>3</span>
-                            </button><button type="button" class="numbered-dots__item" aria-current="true">
+                            </button>
+                            
+                            <button type="button" class="numbered-dots__item" aria-current="false">
                                 <svg width="100%" height="100%" style="--percent: 0">
                                     <circle cx="50%" cy="50%" r="15"></circle>
                                     <circle cx="50%" cy="50%" r="15" style="stroke-dasharray: 93.6404px, 93.6404px;"></circle>
                                 </svg>
-
                                 <span>4</span>
-                            </button></page-dots></div>
+                            </button>
+                        </page-dots>
+                    </div>
                 </slideshow-carousel>
             </x-slideshow>
-
         </section>
+
         <section id="shopify-section-template--17140497613106__6109a793-6349-4356-bed0-a99b76fb243d" class="shopify-section shopify-section--rich-text">
             <style>
                 #shopify-section-template--17140497613106__6109a793-6349-4356-bed0-a99b76fb243d {
@@ -2044,7 +867,7 @@
                 }
             </style>
 
-            <div class="section   section-blends section-full">
+            <div class="section section-blends section-full">
                 <div class="rich-text justify-center ">
                     <div class="rich-text__wrapper">
                         <div class="prose justify-items-center text-center">
@@ -2087,51 +910,137 @@
                     }
                 }
             </style>
+
             <div class="section   section-blends section-full">
                 <div class="section-stack">
-                    <div class="floating-controls-container"><scroll-carousel selector=".collection-card" id="scroll-area-template--17140497613106__collection-list" class="scroll-area bleed ">
-                            <collection-list class="collection-list"><a href="https://polomanor.vn/collections/polo-tron-basic" class="collection-card  shadow" reveal-js="">
-                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=1508" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_POLOBASICMAN_281022_22.jpg?v=1672471144&amp;width=1400 1400w" width="1508" height="2000" loading="eager" sizes="(max-width: 699px) 73vw, 360px" class="zoom-image">
+                    <div class="floating-controls-container">
+                        <scroll-carousel selector=".collection-card" id="scroll-area-template--17140497613106__collection-list" class="scroll-area bleed ">
+                            <collection-list class="collection-list">
+                                <a href="#" class="collection-card  shadow" reveal-js="">
+                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3">
+                                        <img 
+                                            src="./assets/images/danh_muc_1.webp" 
+                                            alt="" 
+                                            srcset="
+                                                ./assets/images/danh_muc_1.webp 200w, 
+                                                ./assets/images/danh_muc_1.webp 300w, 
+                                                ./assets/images/danh_muc_1.webp 400w, 
+                                                ./assets/images/danh_muc_1.webp 500w, 
+                                                ./assets/images/danh_muc_1.webp 600w, 
+                                                ./assets/images/danh_muc_1.webp 800w, 
+                                                ./assets/images/danh_muc_1.webp 1000w, 
+                                                ./assets/images/danh_muc_1.webp 1200w, 
+                                                ./assets/images/danh_muc_1.webp 1400w" 
+                                            width="1508" 
+                                            height="2000" 
+                                            loading="eager" 
+                                            sizes="(max-width: 699px) 73vw, 360px" 
+                                            class="zoom-image">
                                         <div class="collection-card__content-wrapper text-custom place-self-center text-center" style="--text-color: 255 255 255">
                                             <div class="collection-card__content prose">
                                                 <p class="h4">Polo Trơn Basic</p>
-                                            </div><svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
+                                            </div>
+                                            <svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12ZM10.47 9.53 12.94 12l-2.47 2.47 1.06 1.06 3-3 .53-.53-.53-.53-3-3-1.06 1.06Z" fill="currentColor"></path>
                                             </svg>
                                         </div>
                                     </div>
-                                </a><a href="https://polomanor.vn/collections/polo-hoa-tiet" class="collection-card  shadow" reveal-js="">
-                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=1508" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Agati_260822_1.jpg?v=1672471558&amp;width=1400 1400w" width="1508" height="2000" loading="eager" sizes="(max-width: 699px) 73vw, 360px" class="zoom-image">
+                                </a>
+                                
+                                <a href="#" class="collection-card  shadow" reveal-js="">
+                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3">
+                                        <img 
+                                            src="./assets/images/danh_muc_2.webp" 
+                                            alt="" 
+                                            srcset="
+                                                ./assets/images/danh_muc_2.webp 200w, 
+                                                ./assets/images/danh_muc_2.webp 300w, 
+                                                ./assets/images/danh_muc_2.webp 400w, 
+                                                ./assets/images/danh_muc_2.webp 500w, 
+                                                ./assets/images/danh_muc_2.webp 600w, 
+                                                ./assets/images/danh_muc_2.webp 800w, 
+                                                ./assets/images/danh_muc_2.webp 1000w, 
+                                                ./assets/images/danh_muc_2.webp 1200w, 
+                                                ./assets/images/danh_muc_2.webp 1400w"
+                                            width="1508" 
+                                            height="2000" 
+                                            loading="eager" 
+                                            sizes="(max-width: 699px) 73vw, 360px" 
+                                            class="zoom-image">
                                         <div class="collection-card__content-wrapper text-custom place-self-center text-center" style="--text-color: 255 255 255">
                                             <div class="collection-card__content prose">
                                                 <p class="h4">Polo Họa Tiết</p>
-                                            </div><svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
+                                            </div>
+                                            <svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12ZM10.47 9.53 12.94 12l-2.47 2.47 1.06 1.06 3-3 .53-.53-.53-.53-3-3-1.06 1.06Z" fill="currentColor"></path>
                                             </svg>
                                         </div>
                                     </div>
-                                </a><a href="https://polomanor.vn/collections/polo-phoi" class="collection-card  shadow" reveal-js="">
-                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=1206" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672471484&amp;width=1200 1200w" width="1206" height="1599" loading="lazy" sizes="(max-width: 699px) 73vw, 360px" class="zoom-image">
+                                </a>
+                                
+                                <a href="#" class="collection-card  shadow" reveal-js="">
+                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3">
+                                        <img 
+                                            src="./assets/images/danh_muc_3.webp" 
+                                            alt="" 
+                                            srcset="
+                                                ./assets/images/danh_muc_3.webp 200w, 
+                                                ./assets/images/danh_muc_3.webp 300w, 
+                                                ./assets/images/danh_muc_3.webp 400w, 
+                                                ./assets/images/danh_muc_3.webp 500w, 
+                                                ./assets/images/danh_muc_3.webp 600w, 
+                                                ./assets/images/danh_muc_3.webp 800w, 
+                                                ./assets/images/danh_muc_3.webp 1000w, 
+                                                ./assets/images/danh_muc_3.webp 1200w" 
+                                            width="1206" 
+                                            height="1599" 
+                                            loading="lazy" 
+                                            sizes="(max-width: 699px) 73vw, 360px" 
+                                            class="zoom-image">
                                         <div class="collection-card__content-wrapper text-custom place-self-center text-center" style="--text-color: 255 255 255">
                                             <div class="collection-card__content prose">
                                                 <p class="h4">Polo Phối</p>
-                                            </div><svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
+                                            </div>
+                                            <svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12ZM10.47 9.53 12.94 12l-2.47 2.47 1.06 1.06 3-3 .53-.53-.53-.53-3-3-1.06 1.06Z" fill="currentColor"></path>
                                             </svg>
                                         </div>
                                     </div>
-                                </a><a href="https://polomanor.vn/collections/ao-thun" class="collection-card  shadow" reveal-js="">
-                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=1508" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/Polomanor_ao-thun_Basicman_2112_24.jpg?v=1672471766&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 73vw, 360px" class="zoom-image">
+                                </a>
+                                
+                                <a href="#" class="collection-card  shadow" reveal-js="">
+                                    <div class="content-over-media group rounded-sm" style="--content-over-media-overlay: 0 0 0 / 0.3">
+                                        <img 
+                                            src="./assets/images/danh_muc_4.webp" 
+                                            alt="" 
+                                            srcset="
+                                                ./assets/images/danh_muc_4.webp 200w, 
+                                                ./assets/images/danh_muc_4.webp 300w, 
+                                                ./assets/images/danh_muc_4.webp 400w, 
+                                                ./assets/images/danh_muc_4.webp 500w, 
+                                                ./assets/images/danh_muc_4.webp 600w, 
+                                                ./assets/images/danh_muc_4.webp 800w, 
+                                                ./assets/images/danh_muc_4.webp 1000w, 
+                                                ./assets/images/danh_muc_4.webp 1200w, 
+                                                ./assets/images/danh_muc_4.webp 1400w" 
+                                            width="1508" 
+                                            height="2000" 
+                                            loading="lazy" 
+                                            sizes="(max-width: 699px) 73vw, 360px" 
+                                            class="zoom-image">
                                         <div class="collection-card__content-wrapper text-custom place-self-center text-center" style="--text-color: 255 255 255">
                                             <div class="collection-card__content prose">
                                                 <p class="h4">Áo Thun</p>
-                                            </div><svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
+                                            </div>
+                                            <svg role="presentation" focusable="false" width="40" height="40" class="icon icon-circle-button-right-clipped" viewBox="0 0 24 24">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12ZM10.47 9.53 12.94 12l-2.47 2.47 1.06 1.06 3-3 .53-.53-.53-.53-3-3-1.06 1.06Z" fill="currentColor"></path>
                                             </svg>
                                         </div>
                                     </div>
-                                </a></collection-list>
-                        </scroll-carousel><button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="scroll-area-template--17140497613106__collection-list" disabled="">
+                                </a>
+                            </collection-list>
+                        </scroll-carousel>
+                        <button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="scroll-area-template--17140497613106__collection-list" disabled="">
                             <span class="sr-only">Trở về</span>
                             <span class="animated-arrow animated-arrow--reverse"></span>
                         </button>
@@ -2145,6 +1054,7 @@
             </div>
 
         </section>
+
         <section id="shopify-section-template--17140497613106__featured-collection" class="shopify-section shopify-section--featured-collection">
             <style>
                 #shopify-section-template--17140497613106__featured-collection {
@@ -2179,30 +1089,81 @@
                 }
             </style>
 
-            <div class="section   section-blends section-full text-custom" style="--text-color: 35 49 75;">
+            <div class="section section-blends section-full text-custom" style="--text-color: 35 49 75;">
                 <div class="section-stack">
                     <section-header class="section-header ">
                         <div class="prose">
                             <h2 class="h2" reveal-on-scroll="true"><split-lines>Sản Phẩm Mới</split-lines></h2>
-                        </div><a href="https://polomanor.vn/collections/san-pham-moi" class="text-with-icon group">
+                        </div>
+                        <a href="#" class="text-with-icon group">
                             <span class="reversed-link">Xem toàn bộ sản phẩm</span>
-                            <span class="circle-chevron group-hover:colors"><svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
+                            <span class="circle-chevron group-hover:colors">
+                                <svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
                                     <path d="m.75 7 3-3-3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-                                </svg></span>
+                                </svg>
+                            </span>
                         </a>
                     </section-header>
-                    <div class="floating-controls-container"><scroll-carousel selector="product-card" id="scroll-area-template--17140497613106__featured-collection" class="scroll-area bleed is-scrollable">
+                    <div class="floating-controls-container">
+                        <scroll-carousel selector="product-card" id="scroll-area-template--17140497613106__featured-collection" class="scroll-area bleed is-scrollable">
                             <reveal-items selector=".product-list > *">
-                                <product-list class="product-list"><product-card handle="ao-polo-nam-rent" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
+                                <product-list class="product-list">
+                                    <product-card handle="ao-polo-nam-rent" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                        <div class="product-card__badge-list">
+                                            <on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge>
+                                        </div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-rent"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=1508" alt="Áo Polo Nam Rent vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_12_1.jpg?v=1672203449&amp;width=1400 1400w" width="1508" height="2000" loading="eager" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=1508" alt="Áo Polo Nam Rent vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Rent_281022_15.jpg?v=1673496597&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="eager" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_1.webp" 
+                                                    alt="Áo Polo Nam Rent vải Uni phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_1.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="eager" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_1.webp" 
+                                                    alt="Áo Polo Nam Rent vải Uni phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_1.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 400w,
+                                                        ./assets/images/san_pham_moi_sau_1.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_1.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="eager" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-000536732" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2212,7 +1173,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-000536732" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2223,23 +1185,74 @@
                                                 <quick-buy-drawer id="quick-buy-000536732" header-bordered="" open-from="bottom" handle="ao-polo-nam-rent" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
                                             </div>
                                         </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-rent" class="bold">Áo Polo Nam Rent vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
 
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                        <div class="product-card__info product-card__info--center">
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title">
+                                                    <a href="#" class="bold">Áo Polo Nam Rent vải Uni phom Regular Fit</a>
+                                                </span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-blaro-mau-trang" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-blaro-mau-trang" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                        <div class="product-card__badge-list">
+                                            <on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge>
+                                        </div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-blaro-mau-trang"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=1206" alt="Áo Polo Nam Blaro Màu Trắng vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_46.jpg?v=1675305505&amp;width=1200 1200w" width="1206" height="1599" loading="eager" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=1508" alt="Áo Polo Nam Blaro Màu Trắng vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-Blaro_281022_54.jpg?v=1675305505&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="eager" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_2.webp" 
+                                                    alt="Áo Polo Nam Blaro Màu Trắng vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_2.webp 1200w" 
+                                                    width="1206" 
+                                                    height="1599" 
+                                                    loading="eager" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_2.webp" 
+                                                    alt="Áo Polo Nam Blaro Màu Trắng vải CMC phom Regular Fit"
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_2.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_2.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="eager" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-004584006" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2249,7 +1262,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-004584006" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2261,22 +1275,71 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-blaro-mau-trang" class="bold">Áo Polo Nam Blaro Màu Trắng vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title">
+                                                    <a href="#" class="bold">Áo Polo Nam Blaro Màu Trắng vải CMC phom Regular Fit</a>
+                                                </span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-karlis" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-karlis" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-karlis"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=1508" alt="Áo Polo Nam Karlis vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Kaslis_030223_1.jpg?v=1675482946&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=1508" alt="Áo Polo Nam Karlis vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kaslis_030223-_6.jpg?v=1675482946&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_3.webp" 
+                                                    alt="Áo Polo Nam Karlis vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_3.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                    <img 
+                                                        src="./assets/images/san_pham_moi_sau_3.webp" 
+                                                        alt="Áo Polo Nam Karlis vải CMC phom Regular Fit" 
+                                                        srcset="
+                                                            ./assets/images/san_pham_moi_sau_3.webp 200w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 300w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 400w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 500w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 600w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 700w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 800w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 1000w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 1200w, 
+                                                            ./assets/images/san_pham_moi_sau_3.webp 1400w"
+                                                        width="1508" 
+                                                        height="2000" 
+                                                        class="product-card__image product-card__image--secondary object-fill" 
+                                                        loading="lazy" 
+                                                        fetchpriority="low" 
+                                                        sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                                </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-008019051" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2286,7 +1349,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-008019051" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2298,22 +1362,70 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-karlis" class="bold">Áo Polo Nam Karlis vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Karlis vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-space" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-space" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                        <div class="product-card__badge-list">
+                                            <on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge>
+                                        </div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-space"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=1206" alt="Áo Polo Nam Space vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Space_050123_1.jpg?v=1673001511&amp;width=1200 1200w" width="1206" height="1599" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=1508" alt="Áo Polo Nam Space vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_28.jpg?v=1673001511&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_4.webp" 
+                                                    alt="Áo Polo Nam Space vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_4.webp 1200w" 
+                                                    width="1206" 
+                                                    height="1599" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_4.webp" 
+                                                    alt="Áo Polo Nam Space vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_4.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_4.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-011137509" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2323,7 +1435,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-011137509" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2335,22 +1448,69 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-space" class="bold">Áo Polo Nam Space vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Space vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-jay" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-jay" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-jay"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=1508" alt="Áo Polo Nam Jay vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_13.jpg?v=1672196435&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=1508" alt="Áo Polo Nam Jay vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Jay_281022_14.jpg?v=1673493113&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_5.webp" 
+                                                    alt="Áo Polo Nam Jay vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_5.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_5.webp" 
+                                                    alt="Áo Polo Nam Jay vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_5.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_5.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-014043947" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2360,7 +1520,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-014043947" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2372,13 +1533,19 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-jay" class="bold">Áo Polo Nam Jay vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Jay vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-blaro-mau-den" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <!-- làm đến đây -->
+
+                                    <product-card handle="ao-polo-nam-blaro-mau-den" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
                                             <a href="https://polomanor.vn/products/ao-polo-nam-blaro-mau-den"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=1056" alt="Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=1000 1000w" width="1056" height="1401" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1508" alt="Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
