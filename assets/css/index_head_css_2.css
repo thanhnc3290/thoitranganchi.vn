@@ -1,0 +1,122 @@
+.jdgm-xx {
+    left: 0
+}
+
+:root {
+    --jdgm-primary-color: #0a2139;
+    --jdgm-secondary-color: rgba(10, 33, 57, 0.1);
+    --jdgm-star-color: #0a2139;
+    --jdgm-paginate-color: #0a2139;
+    --jdgm-border-radius: 0
+}
+
+.jdgm-histogram__bar-content {
+    background-color: #0a2139
+}
+
+.jdgm-rev[data-verified-buyer=true] .jdgm-rev__icon.jdgm-rev__icon:after,
+.jdgm-rev__buyer-badge.jdgm-rev__buyer-badge {
+    color: white;
+    background-color: #0a2139
+}
+
+.jdgm-review-widget--small .jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before {
+    content: "See more"
+}
+
+@media only screen and (min-width: 768px) {
+    .jdgm-gallery.jdgm-gallery .jdgm-gallery__thumbnail-link:nth-child(8) .jdgm-gallery__thumbnail-wrapper.jdgm-gallery__thumbnail-wrapper:before {
+        content: "See more"
+    }
+}
+
+.jdgm-rev__thumb-btn {
+    color: #0a2139
+}
+
+.jdgm-rev__thumb-btn:hover {
+    opacity: 0.8
+}
+
+.jdgm-rev__thumb-btn:not([disabled]):hover,
+.jdgm-rev__thumb-btn:hover,
+.jdgm-rev__thumb-btn:active,
+.jdgm-rev__thumb-btn:visited {
+    color: #0a2139
+}
+
+.jdgm-prev-badge[data-average-rating='0.00'] {
+    display: none !important
+}
+
+.jdgm-author-all-initials {
+    display: none !important
+}
+
+.jdgm-author-last-initial {
+    display: none !important
+}
+
+.jdgm-rev-widg__title {
+    visibility: hidden
+}
+
+.jdgm-rev-widg__summary-text {
+    visibility: hidden
+}
+
+.jdgm-prev-badge__text {
+    visibility: hidden
+}
+
+.jdgm-rev__replier:before {
+    content: 'POLOMANOR'
+}
+
+.jdgm-rev__prod-link-prefix:before {
+    content: 'Đánh giá cho'
+}
+
+.jdgm-rev__out-of-store-text:before {
+    content: '(out of store)'
+}
+
+@media only screen and (min-width: 768px) {
+
+    .jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,
+    .jdgm-rev__pics .jdgm-rev__product-picture {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .jdgm-rev__pics .jdgm-rev_all-rev-page-picture-separator,
+    .jdgm-rev__pics .jdgm-rev__product-picture {
+        display: none
+    }
+}
+
+.jdgm-preview-badge[data-template="index"] {
+    display: none !important
+}
+
+.jdgm-verified-count-badget[data-from-snippet="true"] {
+    display: none !important
+}
+
+.jdgm-carousel-wrapper[data-from-snippet="true"] {
+    display: none !important
+}
+
+.jdgm-all-reviews-text[data-from-snippet="true"] {
+    display: none !important
+}
+
+.jdgm-medals-section[data-from-snippet="true"] {
+    display: none !important
+}
+
+.jdgm-ugc-media-wrapper[data-from-snippet="true"] {
+    display: none !important
+}
