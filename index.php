@@ -142,7 +142,8 @@
                 <slot></slot>
             </div>
         </div>
-    </template><a href="#main" class="skip-to-content sr-only">Chuyển đến nội dung</a>
+    </template>
+    <a href="#main" class="skip-to-content sr-only">Chuyển đến nội dung</a>
     <aside id="shopify-section-announcement-bar" class="shopify-section shopify-section--announcement-bar">
         <style> :root {--sticky-announcement-bar-enabled: 0;}</style>
         <height-observer variable="announcement-bar">
@@ -1542,19 +1543,60 @@
                                             </div>
                                         </div>
                                     </product-card>
-                                    
-                                    <!-- làm đến đây -->
 
                                     <product-card handle="ao-polo-nam-blaro-mau-den" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
+                                        <div class="product-card__badge-list">
+                                            <on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge>
+                                        </div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-blaro-mau-den"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=1056" alt="Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Blaro_050123_1.jpg?v=1673001524&amp;width=1000 1000w" width="1056" height="1401" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1508" alt="Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_26.jpg?v=1673001524&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_6.webp" 
+                                                    alt="Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_6.webp 1000w" 
+                                                    width="1056" 
+                                                    height="1401" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_6.jpg" 
+                                                    alt="Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 200w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 300w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 400w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 500w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 600w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 700w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 800w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_6.jpg 1400w"
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-016712259" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1564,7 +1606,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-016712259" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1576,22 +1619,69 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-blaro-mau-den" class="bold">Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Blaro Màu Đen vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-andre" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-andre" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-andre"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=1440" alt="Áo Polo Nam Andre vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_311222_16.jpg?v=1673413154&amp;width=1400 1400w" width="1440" height="1910" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=1440" alt="Áo Polo Nam Andre vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_andre_5123_20.jpg?v=1673413154&amp;width=1400 1400w" width="1440" height="1910" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_7.webp" 
+                                                    alt="Áo Polo Nam Andre vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_7.webp 1400w" 
+                                                    width="1440" 
+                                                    height="1910" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_7.webp" 
+                                                    alt="Áo Polo Nam Andre vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_7.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_7.webp 1400w" 
+                                                    width="1440" 
+                                                    height="1910" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-019993765" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1601,7 +1691,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-019993765" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1613,22 +1704,68 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-andre" class="bold">Áo Polo Nam Andre vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Andre vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-eric" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-eric" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-eric"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=1206" alt="Áo Polo Nam Eric vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Eric_050123_1.jpg?v=1673001560&amp;width=1200 1200w" width="1206" height="1599" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=1508" alt="Áo Polo Nam Eric vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-art-work_281022_43_1.jpg?v=1673001560&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_8.webp" 
+                                                    alt="Áo Polo Nam Eric vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_8.webp 1200w" 
+                                                    width="1206" 
+                                                    height="1599" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_8.webp" 
+                                                    alt="Áo Polo Nam Eric vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_8.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_8.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-022384715" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1638,7 +1775,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-022384715" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1650,22 +1788,68 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-eric" class="bold">Áo Polo Nam Eric vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Eric vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-flori" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-flori" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-flori"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=1508" alt="Áo Polo Nam Flori vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_281022_14_1.jpg?v=1672126645&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=1282" alt="Áo Polo Nam Flori vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Flori_261222_1.jpg?v=1672126993&amp;width=1200 1200w" width="1282" height="1700" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_9.webp" 
+                                                    alt="Áo Polo Nam Flori vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_9.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_9.webp" 
+                                                    alt="Áo Polo Nam Flori vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_9.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_9.webp 1200w" 
+                                                    width="1282" 
+                                                    height="1700" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-025159372" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1675,7 +1859,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-025159372" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1687,22 +1872,69 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-flori" class="bold">Áo Polo Nam Flori vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Flori vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-hudson" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-hudson" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-hudson"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=1508" alt="Áo Polo Nam Hudson vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_1.jpg?v=1675409165&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=1508" alt="Áo Polo Nam Hudson vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_Hudson_030223_2.jpg?v=1675409165&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_10.webp" 
+                                                    alt="Áo Polo Nam Hudson vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_10.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_10.jpg" 
+                                                    alt="Áo Polo Nam Hudson vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 200w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 300w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 400w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 500w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 600w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 700w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 800w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_10.jpg 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-027656491" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1712,7 +1944,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-027656491" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1724,22 +1957,69 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-hudson" class="bold">Áo Polo Nam Hudson vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Hudson vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-carlee" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-carlee" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-carlee"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=1508" alt="Áo Polo Nam Carlee vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_20.jpg?v=1673408271&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=1508" alt="Áo Polo Nam Carlee vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_carlee_311222_25.jpg?v=1673408271&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_11.webp" 
+                                                    alt="Áo Polo Nam Carlee vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_11.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_11.webp" 
+                                                    alt="Áo Polo Nam Carlee vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_11.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_11.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-030159080" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1749,7 +2029,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-030159080" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1761,22 +2042,69 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-carlee" class="bold">Áo Polo Nam Carlee vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Carlee vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-digo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-digo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-digo"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1508" alt="Áo Polo Nam Digo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1508" alt="Áo Polo Nam Digo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_truoc_12.webp" 
+                                                    alt="Áo Polo Nam Digo vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 200w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 300w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 400w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 500w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 600w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 700w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 800w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_truoc_12.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/san_pham_moi_sau_12.webp" 
+                                                    alt="Áo Polo Nam Digo vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/san_pham_moi_sau_12.webp 200w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 300w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 400w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 500w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 600w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 700w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 800w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 1000w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 1200w, 
+                                                        ./assets/images/san_pham_moi_sau_12.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill"
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1440px) / 3 - (24px / 3 * 2))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-032584542" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1786,7 +2114,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-032584542" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -1798,15 +2127,21 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-digo" class="bold">Áo Polo Nam Digo vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Digo vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card></product-list>
+                                    </product-card>
+
+                                </product-list>
                             </reveal-items>
-                        </scroll-carousel><button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="scroll-area-template--17140497613106__featured-collection" disabled="">
+                        </scroll-carousel>
+                        
+                        <button is="prev-button" class="circle-button circle-button--lg circle-button--fill border group" aria-controls="scroll-area-template--17140497613106__featured-collection" disabled="">
                             <span class="sr-only">Trở về</span>
                             <span class="animated-arrow animated-arrow--reverse"></span>
                         </button>
@@ -1820,6 +2155,7 @@
             </div>
 
         </section>
+
         <section id="shopify-section-template--17140497613106__e2b3dc94-4b58-444e-aca8-3641ef6502f8" class="shopify-section shopify-section--featured-collection">
             <style>
                 #shopify-section-template--17140497613106__e2b3dc94-4b58-444e-aca8-3641ef6502f8 {
@@ -1859,157 +2195,74 @@
                     <section-header class="section-header ">
                         <div class="prose">
                             <h2 class="h2" reveal-on-scroll="true"><split-lines>Tất Cả Sản Phẩm</split-lines></h2>
-                        </div><a href="https://polomanor.vn/collections/all-sp" class="text-with-icon group">
+                        </div>
+                        <a href="#" class="text-with-icon group">
                             <span class="reversed-link">Xem toàn bộ sản phẩm</span>
-                            <span class="circle-chevron group-hover:colors"><svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
+                            <span class="circle-chevron group-hover:colors">
+                                <svg role="presentation" focusable="false" width="5" height="8" class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
                                     <path d="m.75 7 3-3-3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
-                                </svg></span>
+                                </svg>
+                            </span>
                         </a>
                     </section-header>
-                    <div class="scrollable-with-controls"><scroll-carousel selector="product-card" id="scroll-area-template--17140497613106__e2b3dc94-4b58-444e-aca8-3641ef6502f8" class="scroll-area bleed">
+
+                    <div class="scrollable-with-controls">
+                        <scroll-carousel selector="product-card" id="scroll-area-template--17140497613106__e2b3dc94-4b58-444e-aca8-3641ef6502f8" class="scroll-area bleed">
                             <reveal-items selector=".product-list > *">
-                                <product-list class="product-list"><product-card handle="polo-nam-basicman" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">SALE</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/polo-nam-basicman"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=1508" alt="Áo Polo Nam Basicman vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=1400 1400w" width="1508" height="2000" loading="eager" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/c14be627626b44d492ecf15f6a247217.thumbnail.0000000000.jpg?v=1672198359&amp;width=1000 1000w" width="1080" height="1350" class="product-card__image product-card__image--secondary object-fill" loading="eager" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-040399385" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
+                                <product-list class="product-list">
 
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-040399385" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-040399385" header-bordered="" open-from="bottom" handle="polo-nam-basicman" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/polo-nam-basicman" class="bold">Áo Polo Nam Basicman vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>Từ 199.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                            <div class="product-card__aside">
-                                                <fieldset class="product-card__variant-list" data-option-position="2"><input class="sr-only" type="radio" name="swatch-041512377" id="swatch-042387172" value="Đen" checked="checked"><label class="media-swatch media-swatch--sm " for="swatch-042387172" data-option-value="">
-                                                        <span class="sr-only">Đen</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=1508" alt="Áo Polo Nam Basicman vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman_201222_1.jpg?v=1672198749&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-041512377" id="swatch-042868729" value="Trắng"><label class="media-swatch media-swatch--sm " for="swatch-042868729" data-option-value="">
-                                                        <span class="sr-only">Trắng</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-basic-man_281022_31_1_c8b11bad-ef6e-41fb-8d82-c3ff9802f21a.jpg?v=1676962115&amp;width=1508" alt="Áo Polo Nam Basicman vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-basic-man_281022_31_1_c8b11bad-ef6e-41fb-8d82-c3ff9802f21a.jpg?v=1676962115&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-basic-man_281022_31_1_c8b11bad-ef6e-41fb-8d82-c3ff9802f21a.jpg?v=1676962115&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-041512377" id="swatch-043265820" value="Xanh đen"><label class="media-swatch media-swatch--sm " for="swatch-043265820" data-option-value="">
-                                                        <span class="sr-only">Xanh đen</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-basic-man_281022_27_1_9d343d79-5fbd-4191-b500-e2c3f44797b9.jpg?v=1676962166&amp;width=1508" alt="Áo Polo Nam Basicman vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-basic-man_281022_27_1_9d343d79-5fbd-4191-b500-e2c3f44797b9.jpg?v=1676962166&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Polo-basic-man_281022_27_1_9d343d79-5fbd-4191-b500-e2c3f44797b9.jpg?v=1676962166&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-041512377" id="swatch-043617933" value="Xanh rêu"><label class="media-swatch media-swatch--sm " for="swatch-043617933" data-option-value="">
-                                                        <span class="sr-only">Xanh rêu</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman-reu_030223_1_1_9bc98044-2930-4f9c-83ea-36d72d297f97.jpg?v=1676962196&amp;width=1508" alt="Áo Polo Nam Basicman vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman-reu_030223_1_1_9bc98044-2930-4f9c-83ea-36d72d297f97.jpg?v=1676962196&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicman-reu_030223_1_1_9bc98044-2930-4f9c-83ea-36d72d297f97.jpg?v=1676962196&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><a href="https://polomanor.vn/products/polo-nam-basicman" class="media-swatch__view-more text-xs text-subdued">+4</a></fieldset>
-                                            </div>
-                                        </div>
-                                    </product-card><product-card handle="ao-thun-nam-basicman" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 41.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-thun-nam-basicman"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=1508" alt="Áo Thun Nam Basicman vải Cotton phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=1400 1400w" width="1508" height="2000" loading="eager" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/408623b95e8341a29c92d8839fbdf02e.thumbnail.0000000000.jpg?v=1672216604&amp;width=1000 1000w" width="1080" height="1350" class="product-card__image product-card__image--secondary object-fill" loading="eager" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-046039073" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-046039073" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-046039073" header-bordered="" open-from="bottom" handle="ao-thun-nam-basicman" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-thun-nam-basicman" class="bold">Áo Thun Nam Basicman vải Cotton phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>179.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>220.000₫</compare-at-price></price-list></div>
-                                            <div class="product-card__aside">
-                                                <fieldset class="product-card__variant-list" data-option-position="2"><input class="sr-only" type="radio" name="swatch-046876074" id="swatch-047046797" value="Trắng" checked="checked"><label class="media-swatch media-swatch--sm " for="swatch-047046797" data-option-value="">
-                                                        <span class="sr-only">Trắng</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=1508" alt="Áo Thun Nam Basicman vải Cotton phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_1_2.jpg?v=1672216538&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-046876074" id="swatch-047426462" value="Đen"><label class="media-swatch media-swatch--sm " for="swatch-047426462" data-option-value="">
-                                                        <span class="sr-only">Đen</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2102_2_fad862b1-9db9-4e34-8e86-d37eabbb5d01.jpg?v=1676970671&amp;width=1508" alt="Áo Thun Nam Basicman vải Cotton phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2102_2_fad862b1-9db9-4e34-8e86-d37eabbb5d01.jpg?v=1676970671&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2102_2_fad862b1-9db9-4e34-8e86-d37eabbb5d01.jpg?v=1676970671&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-046876074" id="swatch-047890479" value="Xám đậm"><label class="media-swatch media-swatch--sm " for="swatch-047890479" data-option-value="">
-                                                        <span class="sr-only">Xám đậm</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_19_1_608d17c1-c01d-4362-a8d8-aecbd25cee33.jpg?v=1676971555&amp;width=1508" alt="Áo Thun Nam Basicman vải Cotton phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_19_1_608d17c1-c01d-4362-a8d8-aecbd25cee33.jpg?v=1676971555&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_19_1_608d17c1-c01d-4362-a8d8-aecbd25cee33.jpg?v=1676971555&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-046876074" id="swatch-048227131" value="Đỏ đậm"><label class="media-swatch media-swatch--sm " for="swatch-048227131" data-option-value="">
-                                                        <span class="sr-only">Đỏ đậm</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_20.jpg?v=1676970592&amp;width=1508" alt="Áo Thun Nam Basicman vải Cotton phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_20.jpg?v=1676970592&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-thun_Basicman_2112_20.jpg?v=1676970592&amp;width=120 120w" width="1508" height="2000" loading="eager" sizes="60px" class="object-cover"></label><a href="https://polomanor.vn/products/ao-thun-nam-basicman" class="media-swatch__view-more text-xs text-subdued">+1</a></fieldset>
-                                            </div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-basic-vee-vải-cvc-phom-regular-fit" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    <product-card handle="ao-polo-nam-arlo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-basic-vee-v%E1%BA%A3i-cvc-phom-regular-fit"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=1508" alt="Áo Polo Nam Basic Vee vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=1508" alt="Áo Polo Nam Basic Vee vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-Vee_Be_210223-_29.jpg?v=1677124430&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-050527722" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-050527722" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-050527722" header-bordered="" open-from="bottom" handle="ao-polo-nam-basic-vee-vải-cvc-phom-regular-fit" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-basic-vee-v%E1%BA%A3i-cvc-phom-regular-fit" class="bold">Áo Polo Nam Basic Vee vải CVC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                            <div class="product-card__aside">
-                                                <fieldset class="product-card__variant-list" data-option-position="2"><input class="sr-only" type="radio" name="swatch-051275042" id="swatch-051430982" value="Trắng" checked="checked"><label class="media-swatch media-swatch--sm " for="swatch-051430982" data-option-value="">
-                                                        <span class="sr-only">Trắng</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=1508" alt="Áo Polo Nam Basic Vee vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_10_1.jpg?v=1675307362&amp;width=120 120w" width="1508" height="2000" loading="lazy" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-051275042" id="swatch-051904951" value="Đen"><label class="media-swatch media-swatch--sm " for="swatch-051904951" data-option-value="">
-                                                        <span class="sr-only">Đen</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_3_3.jpg?v=1677230285&amp;width=1508" alt="Áo Polo Nam Basic Vee vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_3_3.jpg?v=1677230285&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_3_3.jpg?v=1677230285&amp;width=120 120w" width="1508" height="2000" loading="lazy" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-051275042" id="swatch-052297811" value="Xanh đen"><label class="media-swatch media-swatch--sm " for="swatch-052297811" data-option-value="">
-                                                        <span class="sr-only">Xanh đen</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_4_3.jpg?v=1677230302&amp;width=1508" alt="Áo Polo Nam Basic Vee vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_4_3.jpg?v=1677230302&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_4_3.jpg?v=1677230302&amp;width=120 120w" width="1508" height="2000" loading="lazy" sizes="60px" class="object-cover"></label><input class="sr-only" type="radio" name="swatch-051275042" id="swatch-052627664" value="Be"><label class="media-swatch media-swatch--sm " for="swatch-052627664" data-option-value="">
-                                                        <span class="sr-only">Be</span><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_5_3.jpg?v=1677230336&amp;width=1508" alt="Áo Polo Nam Basic Vee vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_5_3.jpg?v=1677230336&amp;width=60 60w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basic-vee_071122_5_3.jpg?v=1677230336&amp;width=120 120w" width="1508" height="2000" loading="lazy" sizes="60px" class="object-cover"></label></fieldset>
-                                            </div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-arlo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-arlo"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=1206" alt="Áo Polo Nam Arlo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Arlo_151122_10.jpg?v=1672196541&amp;width=1200 1200w" width="1206" height="1599" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=1440" alt="Áo Polo Nam Arlo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_arlo_141122_13.jpg?v=1672196541&amp;width=1400 1400w" width="1440" height="1910" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_truoc_1.webp" 
+                                                    alt="Áo Polo Nam Arlo vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 1000w,
+                                                        ./assets/images/tat_ca_san_pham_truoc_1.webp 1200w"
+                                                    width="1206" 
+                                                    height="1599" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_sau_1.webp" 
+                                                    alt="Áo Polo Nam Arlo vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 1200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_1.webp 1400w" 
+                                                        width="1440" 
+                                                        height="1910" 
+                                                        class="product-card__image product-card__image--secondary object-fill" 
+                                                        loading="lazy" 
+                                                        fetchpriority="low" 
+                                                        sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-054834467" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2019,7 +2272,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-054834467" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2031,22 +2285,69 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-arlo" class="bold">Áo Polo Nam Arlo vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Arlo vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-basicbear" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-basicbear" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-basicbear"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=1508" alt="Áo Polo Nam BasicBear vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_20.jpg?v=1672214633&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=1508" alt="Áo Polo Nam BasicBear vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Basicbear_281022_19.jpg?v=1672214646&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_truoc_2.webp" 
+                                                    alt="Áo Polo Nam BasicBear vải CVC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 1200w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_2.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_sau_2.webp" 
+                                                    alt="Áo Polo Nam BasicBear vải CVC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 1200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_2.webp 1400w" 
+                                                    width="1508" 
+                                                    height="2000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-057313117" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2056,7 +2357,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-057313117" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2068,22 +2370,67 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-basicbear" class="bold">Áo Polo Nam BasicBear vải CVC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam BasicBear vải CVC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-yong" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-yong" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-yong"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=1206" alt="Áo Polo Nam Yong vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_1.jpg?v=1672200869&amp;width=1200 1200w" width="1206" height="1599" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=1206" alt="Áo Polo Nam Yong vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Yong_081222_2.jpg?v=1672200869&amp;width=1200 1200w" width="1206" height="1599" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_truoc_3.webp" 
+                                                    alt="Áo Polo Nam Yong vải Uni phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_3.webp 1200w" 
+                                                    width="1206" 
+                                                    height="1599" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_sau_3.webp" 
+                                                    alt="Áo Polo Nam Yong vải Uni phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_3.webp 1200w" 
+                                                    width="1206" 
+                                                    height="1599" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-059650583" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2093,7 +2440,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-059650583" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2105,22 +2453,73 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-yong" class="bold">Áo Polo Nam Yong vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Yong vải Uni phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
+                                            </div>
                                         </div>
-                                    </product-card><product-card handle="ao-polo-nam-renzo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
+                                    </product-card>
+                                    
+                                    <product-card handle="ao-polo-nam-renzo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
                                         <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
                                         <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-renzo"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=2714" alt="Áo Polo Nam Renzo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_4.jpg?v=1672126957&amp;width=1800 1800w" width="2714" height="3599" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=3016" alt="Áo Polo Nam Renzo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_renzo-_6.jpg?v=1672126957&amp;width=1800 1800w" width="3016" height="4000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
+                                            <a href="#">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_truoc_4.webp" 
+                                                    alt="Áo Polo Nam Renzo vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 200w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 300w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 400w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 500w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 600w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 700w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 800w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 1200w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 1400w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 1600w, 
+                                                        ./assets/images/tat_ca_san_pham_truoc_4.webp 1800w" 
+                                                    width="2714" 
+                                                    height="3599" 
+                                                    loading="lazy" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" 
+                                                    class="product-card__image product-card__image--primary aspect-tall">
+                                                <img 
+                                                    src="./assets/images/tat_ca_san_pham_sau_4.jpg" 
+                                                    alt="Áo Polo Nam Renzo vải CMC phom Regular Fit" 
+                                                    srcset="
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 300w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 400w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 500w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 600w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 700w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 800w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 1000w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 1200w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 1400w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 1600w, 
+                                                        ./assets/images/tat_ca_san_pham_sau_4.jpg 1800w" 
+                                                    width="3016" 
+                                                    height="4000" 
+                                                    class="product-card__image product-card__image--secondary object-fill" 
+                                                    loading="lazy" 
+                                                    fetchpriority="low" 
+                                                    sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))">
+                                            </a>
                                             <div class="product-card__quick-buy">
                                                 <div class="pointer-fine:hidden">
                                                     <button type="button" aria-controls="quick-buy-062263466" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
+                                                        <div>
+                                                            <svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
                                                                 <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
+                                                            </svg>
+                                                        </div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2130,7 +2529,8 @@
 
                                                 <div class="pointer-coarse:hidden">
                                                     <button type="button" class="button" aria-controls="quick-buy-062263466" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
+                                                        <div>+ Thêm nhanh</div>
+                                                        <span class="button__loader">
                                                             <span></span>
                                                             <span></span>
                                                             <span></span>
@@ -2142,352 +2542,25 @@
                                             </div>
                                         </div>
                                         <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-renzo" class="bold">Áo Polo Nam Renzo vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-gonza" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-gonza"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=1440" alt="Áo Polo Nam Gonza vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_10.jpg?v=1672116410&amp;width=1400 1400w" width="1440" height="1910" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=1440" alt="Áo Polo Nam Gonza vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao_polo_gonza-_6.jpg?v=1672124612&amp;width=1400 1400w" width="1440" height="1910" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-064720925" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-064720925" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-064720925" header-bordered="" open-from="bottom" handle="ao-polo-nam-gonza" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
+                                            <div class="v-stack gap-0.5 w-full justify-items-center">
+                                                <span class="product-card__title"><a href="#" class="bold">Áo Polo Nam Renzo vải CMC phom Regular Fit</a></span>
+                                                <price-list class="price-list  justify-center">
+                                                    <sale-price class="text-on-sale"><span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
+                                                    <compare-at-price class="text-subdued line-through"><span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price>
+                                                </price-list>
                                             </div>
                                         </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-gonza" class="bold">Áo Polo Nam Gonza vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-mio" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-mio"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=1357" alt="Áo Polo Nam Mio vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_261122_1.jpg?v=1672213643&amp;width=1200 1200w" width="1357" height="1800" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=1508" alt="Áo Polo Nam Mio vải CVC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Mio_281122_5__jpg.jpg?v=1672213643&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-067220641" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-067220641" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-067220641" header-bordered="" open-from="bottom" handle="ao-polo-nam-mio" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-mio" class="bold">Áo Polo Nam Mio vải CVC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-dylen" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-dylen"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=1206" alt="Áo Polo Nam Dylen vải Jacquard phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_1_1.jpg?v=1672215751&amp;width=1200 1200w" width="1206" height="1599" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=1508" alt="Áo Polo Nam Dylen vải Jacquard phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Dylen_011122_2.jpg?v=1672215751&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-069661891" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-069661891" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-069661891" header-bordered="" open-from="bottom" handle="ao-polo-nam-dylen" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-dylen" class="bold">Áo Polo Nam Dylen vải Jacquard phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-ugo-mau-xanh-la" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-ugo-mau-xanh-la"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=1508" alt="Áo Polo Nam Ugo Màu Xanh Lá vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_1.jpg?v=1672197407&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=1508" alt="Áo Polo Nam Ugo Màu Xanh Lá vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanh_121122_6.jpg?v=1672197407&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-072271676" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-072271676" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-072271676" header-bordered="" open-from="bottom" handle="ao-polo-nam-ugo-mau-xanh-la" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-ugo-mau-xanh-la" class="bold">Áo Polo Nam Ugo Màu Xanh Lá vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-ugo-mau-den" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-ugo-mau-den"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=1280" alt="Áo Polo Nam Ugo Màu Đen vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_8.jpg?v=1672131697&amp;width=1200 1200w" width="1280" height="1698" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=1200" alt="Áo Polo Nam Ugo Màu Đen vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoden_160722_5.jpg?v=1672131697&amp;width=1200 1200w" width="1200" height="1592" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-074889709" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-074889709" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-074889709" header-bordered="" open-from="bottom" handle="ao-polo-nam-ugo-mau-den" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-ugo-mau-den" class="bold">Áo Polo Nam Ugo Màu Đen vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-ugo-mau-navy" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-ugo-mau-navy"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=1200" alt="Áo Polo Nam Ugo Màu Navy vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model__7.jpg?v=1675313215&amp;width=1200 1200w" width="1200" height="1592" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=1200" alt="Áo Polo Nam Ugo Màu Navy vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Ugoxanhcoban_model_6.jpg?v=1675313215&amp;width=1200 1200w" width="1200" height="1592" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-077199410" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-077199410" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-077199410" header-bordered="" open-from="bottom" handle="ao-polo-nam-ugo-mau-navy" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-ugo-mau-navy" class="bold">Áo Polo Nam Ugo Màu Navy vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-digo" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-digo"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1508" alt="Áo Polo Nam Digo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_11.jpg?v=1676695408&amp;width=1400 1400w" width="1508" height="2000" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1508" alt="Áo Polo Nam Digo vải CMC phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Digo_121122_13.jpg?v=1676695408&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-079611599" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-079611599" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-079611599" header-bordered="" open-from="bottom" handle="ao-polo-nam-digo" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-digo" class="bold">Áo Polo Nam Digo vải CMC phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-ida" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 51.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-ida"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=1440" alt="Áo Polo Nam Ida vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_11.jpg?v=1672197869&amp;width=1400 1400w" width="1440" height="1910" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=1440" alt="Áo Polo Nam Ida vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_aopolo_ida_model_051022_12.jpg?v=1672197934&amp;width=1400 1400w" width="1440" height="1910" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-081849241" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-081849241" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-081849241" header-bordered="" open-from="bottom" handle="ao-polo-nam-ida" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-ida" class="bold">Áo Polo Nam Ida vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>299.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card><product-card handle="ao-polo-nam-kenji" class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom" style="--background: 255 255 255; --text-color: 35 49 75;">
-                                        <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale">Tiết kiệm 30.000₫</on-sale-badge></div>
-                                        <div class="product-card__figure">
-                                            <a href="https://polomanor.vn/products/ao-polo-nam-kenji"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=1056" alt="Áo Polo Nam Kenji vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_1.jpg?v=1672202871&amp;width=1000 1000w" width="1056" height="1401" loading="lazy" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))" class="product-card__image product-card__image--primary aspect-tall"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=1508" alt="Áo Polo Nam Kenji vải Uni phom Regular Fit" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/products/Polomanor_ao-polo_Kenji_131122_8.jpg?v=1672202871&amp;width=1400 1400w" width="1508" height="2000" class="product-card__image product-card__image--secondary object-fill" loading="lazy" fetchpriority="low" sizes="(max-width: 699px) calc(100vw / 2 - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, 1440px) / 4 - (24px / 4 * 3))"></a>
-                                            <div class="product-card__quick-buy">
-                                                <div class="pointer-fine:hidden">
-                                                    <button type="button" aria-controls="quick-buy-084195487" aria-expanded="false" aria-label="+ Thêm nhanh" is="custom-button" class="product-card__mobile-quick-buy-button">
-                                                        <div><svg role="presentation" fill="none" stroke-width="1.5" focusable="false" width="16" height="14" class="icon icon-quick-buy-cart" viewBox="0 0 16 14">
-                                                                <path d="M7.75 4.75H2.283a1 1 0 0 0-.97 1.244l1.574 6.25a1 1 0 0 0 .97.756h7.787a1 1 0 0 0 .97-.756l1.573-6.25a1 1 0 0 0-.97-1.244H7.75Zm0 0V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg></div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <div class="pointer-coarse:hidden">
-                                                    <button type="button" class="button" aria-controls="quick-buy-084195487" aria-expanded="false" is="custom-button">
-                                                        <div>+ Thêm nhanh</div><span class="button__loader">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </span>
-                                                    </button>
-                                                </div>
-
-                                                <quick-buy-drawer id="quick-buy-084195487" header-bordered="" open-from="bottom" handle="ao-polo-nam-kenji" role="dialog" aria-live="polite" class="quick-buy-drawer drawer" aria-modal="true"></quick-buy-drawer>
-                                            </div>
-                                        </div>
-                                        <div class="product-card__info product-card__info--center">
-                                            <div class="v-stack gap-0.5 w-full justify-items-center"><span class="product-card__title"><a href="https://polomanor.vn/products/ao-polo-nam-kenji" class="bold">Áo Polo Nam Kenji vải Uni phom Regular Fit</a></span><price-list class="price-list  justify-center"><sale-price class="text-on-sale">
-                                                        <span class="sr-only">Giá khuyến mãi</span>320.000₫</sale-price>
-
-                                                    <compare-at-price class="text-subdued line-through">
-                                                        <span class="sr-only">Giá niêm yết</span>350.000₫</compare-at-price></price-list></div>
-                                        </div>
-                                    </product-card></product-list>
+                                    </product-card>
+                                
+                                </product-list>
                             </reveal-items>
-                        </scroll-carousel></div>
+                        </scroll-carousel>
+                    </div>
                 </div>
             </div>
-
         </section>
+
+
         <section id="shopify-section-template--17140497613106__impact-text" class="shopify-section shopify-section--impact-text"></section>
         <section id="shopify-section-template--17140497613106__image-with-text-overlay" class="shopify-section shopify-section--image-with-text-overlay">
             <style>
@@ -2497,7 +2570,58 @@
                 }
             </style>
 
-            <div class="section   section-blends section-full text-custom" style="--text-color: 255 255 255;"><image-banner reveal-on-scroll="true" class="content-over-media content-over-media--auto full-bleed  text-custom" style="--text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=4448" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=1800 1800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=2000 2000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=2200 2200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=2400 2400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=2600 2600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=2800 2800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=3000 3000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_1_1_1.jpg?v=1671680555&amp;width=3200 3200w" width="4448" height="1499" loading="lazy" sizes="100vw" class="hidden sm:block"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=4448" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=900 900w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/8_2.jpg?v=1671680653&amp;width=1600 1600w" width="4448" height="4448" loading="lazy" sizes="100vw" class="sm:hidden">
+            <div class="section section-blends section-full text-custom" style="--text-color: 255 255 255;">
+                <image-banner reveal-on-scroll="true" class="content-over-media content-over-media--auto full-bleed  text-custom" style="--text-color: 255 255 255;">
+                    <img 
+                        src="./assets/images/dinh_vi_thuong_hieu_pc.webp" 
+                        alt="" 
+                        srcset="
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 200w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 300w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 400w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 500w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 600w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 700w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 800w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 900w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 1000w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 1200w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 1400w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 1600w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 1800w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 2000w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 2200w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 2400w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 2600w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 2800w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 3000w, 
+                            ./assets/images/dinh_vi_thuong_hieu_pc.webp 3200w" 
+                        width="4448" 
+                        height="1499" 
+                        loading="lazy" 
+                        sizes="100vw" 
+                        class="hidden sm:block">
+                    <img 
+                        src="./assets/images/dinh_vi_thuong_hieu_mobile.webp" 
+                        alt="" 
+                        srcset="
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 200w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 300w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 400w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 500w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 600w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 700w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 800w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 900w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 1000w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 1200w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 1400w, 
+                            ./assets/images/dinh_vi_thuong_hieu_mobile.webp 1600w" 
+                        width="4448" 
+                        height="4448" 
+                        loading="lazy" 
+                        sizes="100vw" 
+                        class="sm:hidden">
                     <div class="place-self-center text-center sm:place-self-center sm:text-center">
                         <div class="prose">
                             <p class="bold">Định vị thương hiệu</p>
@@ -2512,6 +2636,7 @@
             </div>
 
         </section>
+
         <section id="shopify-section-template--17140497613106__before-after-image" class="shopify-section shopify-section--before-after-image" style="--clip-path-offset:0px;">
             <style>
                 #shopify-section-template--17140497613106__before-after-image {
@@ -2540,20 +2665,56 @@
                     </div>
                     <div class="section-stack__main">
                         <div class="before-after shadow  text-custom" style="--text-color: 255 255 255;">
-                            <div class="before-after__before-image  text-custom" style="--text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=1200" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_1.jpg?v=1671095787&amp;width=1200 1200w" width="1200" height="1500" loading="lazy" sizes="(max-width: 999px) 100vw, 1000px" draggable="false" class="rounded">
+                            <div class="before-after__before-image  text-custom" style="--text-color: 255 255 255;">
+                                <img 
+                                    src="./assets/images/before_after__before_image.webp" 
+                                    alt="" 
+                                    srcset="
+                                        ./assets/images/before_after__before_image.webp 300w, 
+                                        ./assets/images/before_after__before_image.webp 400w, 
+                                        ./assets/images/before_after__before_image.webp 500w, 
+                                        ./assets/images/before_after__before_image.webp 600w, 
+                                        ./assets/images/before_after__before_image.webp 800w, 
+                                        ./assets/images/before_after__before_image.webp 1000w, 
+                                        ./assets/images/before_after__before_image.webp 1200w" 
+                                    width="1200" 
+                                    height="1500" 
+                                    loading="lazy" 
+                                    sizes="(max-width: 999px) 100vw, 1000px" 
+                                    draggable="false" 
+                                    class="rounded">
                                 <p class="before-after__label before-after__label--left before-after__label--bottom h5">Before</p>
                             </div>
 
-                            <div class="before-after__after-image  text-custom" style="--text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=1200" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/phong_do_dung_luc_frame_2_a6845bad-3e94-4208-9adc-1e0fc735f2b9.jpg?v=1671520788&amp;width=1200 1200w" width="1200" height="1500" loading="lazy" sizes="(max-width: 999px) 100vw, 1000px" class="object-fill rounded" draggable="false">
+                            <div class="before-after__after-image  text-custom" style="--text-color: 255 255 255;">
+                                <img 
+                                    src="./assets/images/before_after__after_image.webp" 
+                                    alt="" 
+                                    srcset="
+                                        ./assets/images/before_after__after_image.webp 300w, 
+                                        ./assets/images/before_after__after_image.webp 400w, 
+                                        ./assets/images/before_after__after_image.webp 500w, 
+                                        ./assets/images/before_after__after_image.webp 600w, 
+                                        ./assets/images/before_after__after_image.webp 800w, 
+                                        ./assets/images/before_after__after_image.webp 1000w, 
+                                        ./assets/images/before_after__after_image.webp 1200w" 
+                                    width="1200" 
+                                    height="1500" 
+                                    loading="lazy" 
+                                    sizes="(max-width: 999px) 100vw, 1000px" 
+                                    class="object-fill rounded" 
+                                    draggable="false">
                                 <p class="before-after__label before-after__label--right before-after__label--bottom h5">After</p>
                             </div>
 
                             <div class="before-after__cursor-wrapper">
                                 <split-cursor class="before-after__cursor">
-                                    <span class="sr-only">Kéo</span><svg role="presentation" focusable="false" width="28" height="35" class="icon icon-drag-handle" viewBox="0 0 32 40">
+                                    <span class="sr-only">Kéo</span>
+                                    <svg role="presentation" focusable="false" width="28" height="35" class="icon icon-drag-handle" viewBox="0 0 32 40">
                                         <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16V24C32 32.8366 24.8366 40 16 40C7.16344 40 0 32.8366 0 24V16Z" fill="currentColor"></path>
                                         <path fill="rgb(var(--text-primary))" d="M11 14H13V26H11zM15 14H17V26H15zM19 14H21V26H19z"></path>
-                                    </svg></split-cursor>
+                                    </svg>
+                                </split-cursor>
                             </div>
                         </div>
                     </div>
@@ -2561,6 +2722,7 @@
             </div>
 
         </section>
+
         <section id="shopify-section-template--17140497613106__media-grid" class="shopify-section shopify-section--media-grid">
             <style>
                 #shopify-section-template--17140497613106__media-grid {
@@ -2613,8 +2775,24 @@
                 }
             </style>
             <div class="section   section-blends section-full">
-                <media-grid class="media-grid"><a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 2; --media-grid-row-span: 2">
-                        <div id="media-grid-item-1" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=752" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/your-style-left.png?v=1670840869&amp;width=700 700w" width="752" height="650" loading="lazy" sizes="(max-width: 699px) 100vw, min(780px, 50vw)" class="content-over-media__media zoom-image">
+                <media-grid class="media-grid">
+                    <a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 2; --media-grid-row-span: 2">
+                        <div id="media-grid-item-1" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;">
+                            <img 
+                                src="./assets/images/home_image_1.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/home_image_1.webp 200w, 
+                                    ./assets/images/home_image_1.webp 300w, 
+                                    ./assets/images/home_image_1.webp 400w, 
+                                    ./assets/images/home_image_1.webp 500w, 
+                                    ./assets/images/home_image_1.webp 600w, 
+                                    ./assets/images/home_image_1.webp 700w" 
+                                width="752" 
+                                height="650" 
+                                loading="lazy" 
+                                sizes="(max-width: 699px) 100vw, min(780px, 50vw)" 
+                                class="content-over-media__media zoom-image">
                             <div class="place-self-center text-center sm:place-self-center sm:text-center">
                                 <div class="prose">
                                     <p class="h5">
@@ -2623,16 +2801,82 @@
                                 </div>
                             </div>
                         </div>
-                    </a><a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 1; --media-grid-row-span: 1">
-                        <div id="media-grid-item-2" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=3024" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=1000 1000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=1200 1200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=1400 1400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=1600 1600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=1800 1800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=2000 2000w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=2200 2200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/IMG_97921.jpg?v=1671077698&amp;width=2400 2400w" width="3024" height="3024" loading="lazy" sizes="(max-width: 699px) 100vw, min(390px, 25vw)" class="content-over-media__media zoom-image"></div>
-                    </a><a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 1; --media-grid-row-span: 1">
-                        <div id="media-grid-item-3" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=1080" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=800 800w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/alo_alo1.jpg?v=1671679448&amp;width=1000 1000w" width="1080" height="1080" loading="lazy" sizes="(max-width: 699px) 100vw, min(390px, 25vw)" class="content-over-media__media zoom-image"></div>
-                    </a><a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 2; --media-grid-row-span: 1">
-                        <div id="media-grid-29246d34-c6e0-4373-84f6-b15e57736a00" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=886" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=200 200w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=400 400w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=500 500w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=600 600w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=700 700w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/305285072_136619802433240_8264298626722550243_n_3472b698-1d7b-4011-9519-a548db6ebf0c.jpg?v=1671679605&amp;width=800 800w" width="886" height="500" loading="lazy" sizes="(max-width: 699px) 100vw, min(780px, 50vw)" class="content-over-media__media zoom-image"></div>
-                    </a></media-grid>
+                    </a>
+                    <a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 1; --media-grid-row-span: 1">
+                        <div id="media-grid-item-2" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;">
+                            <img 
+                                src="./assets/images/home_image_2.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/home_image_2.webp 200w, 
+                                    ./assets/images/home_image_2.webp 300w, 
+                                    ./assets/images/home_image_2.webp 400w, 
+                                    ./assets/images/home_image_2.webp 500w, 
+                                    ./assets/images/home_image_2.webp 600w, 
+                                    ./assets/images/home_image_2.webp 700w, 
+                                    ./assets/images/home_image_2.webp 800w, 
+                                    ./assets/images/home_image_2.webp 1000w, 
+                                    ./assets/images/home_image_2.webp 1200w, 
+                                    ./assets/images/home_image_2.webp 1400w, 
+                                    ./assets/images/home_image_2.webp 1600w, 
+                                    ./assets/images/home_image_2.webp 1800w, 
+                                    ./assets/images/home_image_2.webp 2000w, 
+                                    ./assets/images/home_image_2.webp 2200w, 
+                                    ./assets/images/home_image_2.webp 2400w" 
+                                width="3024" 
+                                height="3024" 
+                                loading="lazy" 
+                                sizes="(max-width: 699px) 100vw, min(390px, 25vw)" 
+                                class="content-over-media__media zoom-image">
+                        </div>
+                    </a>
+                    
+                    <a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 1; --media-grid-row-span: 1">
+                        <div id="media-grid-item-3" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;">
+                            <img 
+                                src="./assets/images/home_image_3.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/home_image_3.webp 200w, 
+                                    ./assets/images/home_image_3.webp 300w, 
+                                    ./assets/images/home_image_3.webp 400w, 
+                                    ./assets/images/home_image_3.webp 500w, 
+                                    ./assets/images/home_image_3.webp 600w, 
+                                    ./assets/images/home_image_3.webp 700w, 
+                                    ./assets/images/home_image_3.webp 800w, 
+                                    ./assets/images/home_image_3.webp 1000w" 
+                                width="1080" 
+                                height="1080" 
+                                loading="lazy" 
+                                sizes="(max-width: 699px) 100vw, min(390px, 25vw)" 
+                                class="content-over-media__media zoom-image">
+                        </div>
+                    </a>
+                    
+                    <a class="media-grid__item shadow group" reveal-js="" style="--media-grid-column-span: 2; --media-grid-row-span: 1">
+                        <div id="media-grid-29246d34-c6e0-4373-84f6-b15e57736a00" class="content-over-media rounded bg-custom text-custom" style="--background: 0 0 0; --text-color: 255 255 255;">
+                            <img 
+                                src="./assets/images/home_image_4.webp" 
+                                alt="" 
+                                srcset="
+                                    ./assets/images/home_image_4.webp 200w, 
+                                    ./assets/images/home_image_4.webp 300w, 
+                                    ./assets/images/home_image_4.webp 400w, 
+                                    ./assets/images/home_image_4.webp 500w, 
+                                    ./assets/images/home_image_4.webp 600w, 
+                                    ./assets/images/home_image_4.webp 700w, 
+                                    ./assets/images/home_image_4.webp 800w" 
+                                width="886" 
+                                height="500" 
+                                loading="lazy" 
+                                sizes="(max-width: 699px) 100vw, min(780px, 50vw)" 
+                                class="content-over-media__media zoom-image">
+                        </div>
+                    </a>
+                </media-grid>
             </div>
-
         </section>
+
         <section id="shopify-section-template--17140497613106__4450dd2e-a511-43ff-8cfa-214d5679d500" class="shopify-section shopify-section--multi-column">
             <style>
                 #shopify-section-template--17140497613106__4450dd2e-a511-43ff-8cfa-214d5679d500 {
@@ -2659,7 +2903,18 @@
                     </section-header>
                     <div class="multi-column scroll-area bleed md:unbleed">
                         <div class="multi-column__item snap-start" style="--multi-column-item-column-count: span 4">
-                            <a href="https://www.instagram.com/polomanor.vn"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/polomanor-gram-1551041818521505792_007eab80-b634-4686-9a11-de8a4883b72c.jpg?v=1671091632&amp;width=411" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/polomanor-gram-1551041818521505792_007eab80-b634-4686-9a11-de8a4883b72c.jpg?v=1671091632&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/polomanor-gram-1551041818521505792_007eab80-b634-4686-9a11-de8a4883b72c.jpg?v=1671091632&amp;width=400 400w" width="411" height="598" loading="lazy" sizes="(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1440px, 100vw) / 3)" class="rounded">
+                            <a href="#">
+                                <img 
+                                    src="./assets/images/home_insta_image.webp" 
+                                    alt="" 
+                                    srcset="
+                                        ./assets/images/home_insta_image.webp 300w, 
+                                        ./assets/images/home_insta_image.webp 400w" 
+                                    width="411" 
+                                    height="598" 
+                                    loading="lazy" 
+                                    sizes="(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1440px, 100vw) / 3)" 
+                                    class="rounded">
                                 <div class="v-stack gap-4 text-start">
                                     <p class="h3">POLO-GRAM</p>
                                     <div class="prose">
@@ -2669,7 +2924,18 @@
                             </a>
                         </div>
                         <div class="multi-column__item snap-start" style="--multi-column-item-column-count: span 4">
-                            <a href="https://www.tiktok.com/@polomanor.official"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/ong-chu-polo-1551042005788790784.jpg?v=1671091656&amp;width=412" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/ong-chu-polo-1551042005788790784.jpg?v=1671091656&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/ong-chu-polo-1551042005788790784.jpg?v=1671091656&amp;width=400 400w" width="412" height="598" loading="lazy" sizes="(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1440px, 100vw) / 3)" class="rounded">
+                            <a href="#">
+                                <img 
+                                    src="./assets/images/home_tiktok_image.webp" 
+                                    alt="" 
+                                    srcset="
+                                        ./assets/images/home_tiktok_image.webp 300w, 
+                                        ./assets/images/home_tiktok_image.webp 400w" 
+                                    width="412" 
+                                    height="598" 
+                                    loading="lazy" 
+                                    sizes="(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1440px, 100vw) / 3)" 
+                                    class="rounded">
                                 <div class="v-stack gap-4 text-start">
                                     <p class="h3">ÔNG CHÚ POLO</p>
                                     <div class="prose">
@@ -2679,7 +2945,18 @@
                             </a>
                         </div>
                         <div class="multi-column__item snap-start" style="--multi-column-item-column-count: span 4">
-                            <a href="https://www.facebook.com/groups/762790127950971"><img src="//cdn.shopify.com/s/files/1/0685/2237/7522/files/nghien-polo-1551042039641018368.jpg?v=1671091701&amp;width=411" alt="" srcset="//cdn.shopify.com/s/files/1/0685/2237/7522/files/nghien-polo-1551042039641018368.jpg?v=1671091701&amp;width=300 300w, //cdn.shopify.com/s/files/1/0685/2237/7522/files/nghien-polo-1551042039641018368.jpg?v=1671091701&amp;width=400 400w" width="411" height="598" loading="lazy" sizes="(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1440px, 100vw) / 3)" class="rounded">
+                            <a href="#">
+                                <img 
+                                    src="./assets/images/home_group_image.webp" 
+                                    alt="" 
+                                    srcset="
+                                        ./assets/images/home_group_image.webp 300w, 
+                                        ./assets/images/home_group_image.webp 400w" 
+                                    width="411" 
+                                    height="598" 
+                                    loading="lazy" 
+                                    sizes="(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min(1440px, 100vw) / 3)" 
+                                    class="rounded">
                                 <div class="v-stack gap-4 text-start">
                                     <p class="h3">NGHIỆN POLO</p>
                                     <div class="prose">
@@ -2694,6 +2971,7 @@
         </section>
         <section id="shopify-section-static-text-with-icons" class="shopify-section shopify-section--text-with-icons"></section>
     </main>
+
     <footer id="shopify-section-footer" class="shopify-section shopify-section--footer">
         <style>
             @media screen and (min-width: 1000px) {
@@ -2710,10 +2988,10 @@
                             <p class="bold">Về chúng tôi</p>
                             <ul class="v-stack gap-3" role="list">
                                 <li>
-                                    <a href="https://polomanor.vn/pages/ve-chung-toi" class="inline-block link-faded break-all">Giới thiệu</a>
+                                    <a href="#" class="inline-block link-faded break-all">Giới thiệu</a>
                                 </li>
                                 <li>
-                                    <a href="https://polomanor.vn/pages/dieu-khoan-su-dung" class="inline-block link-faded break-all">Điều khoản sử dụng</a>
+                                    <a href="#" class="inline-block link-faded break-all">Điều khoản sử dụng</a>
                                 </li>
                             </ul>
                         </div>
@@ -2721,13 +2999,13 @@
                             <p class="bold">Hỗ trợ khách hàng</p>
                             <ul class="v-stack gap-3" role="list">
                                 <li>
-                                    <a href="https://polomanor.vn/pages/chinh-sach" class="inline-block link-faded break-all">Chính sách đổi / hoàn trả</a>
+                                    <a href="#" class="inline-block link-faded break-all">Chính sách đổi / hoàn trả</a>
                                 </li>
                                 <li>
-                                    <a href="https://polomanor.vn/pages/chinh-sach-bao-hanh" class="inline-block link-faded break-all">Chính sách bảo hành</a>
+                                    <a href="#" class="inline-block link-faded break-all">Chính sách bảo hành</a>
                                 </li>
                                 <li>
-                                    <a href="https://polomanor.vn/pages/chinh-sach-bao-mat" class="inline-block link-faded break-all">Chính sách bảo mật</a>
+                                    <a href="#" class="inline-block link-faded break-all">Chính sách bảo mật</a>
                                 </li>
                             </ul>
                         </div>
@@ -2748,78 +3026,59 @@
                         <div class="footer__aside-top">
                             <ul class="social-media " role="list">
                                 <li>
-                                    <a href="https://www.facebook.com/Polomanor.official" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Facebook"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-facebook" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Facebook">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-facebook" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.183 21.85v-8.868H7.2V9.526h2.983V6.982a4.17 4.17 0 0 1 4.44-4.572 22.33 22.33 0 0 1 2.667.144v3.084h-1.83a1.44 1.44 0 0 0-1.713 1.68v2.208h3.423l-.447 3.456h-2.97v8.868h-3.57Z" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/polomanor.vn" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Instagram"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-instagram" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR Instagram">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-instagram" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.4c-2.607 0-2.934.011-3.958.058-1.022.046-1.72.209-2.33.446a4.705 4.705 0 0 0-1.7 1.107 4.706 4.706 0 0 0-1.108 1.7c-.237.611-.4 1.31-.446 2.331C2.41 9.066 2.4 9.392 2.4 12c0 2.607.011 2.934.058 3.958.046 1.022.209 1.72.446 2.33a4.706 4.706 0 0 0 1.107 1.7c.534.535 1.07.863 1.7 1.108.611.237 1.309.4 2.33.446 1.025.047 1.352.058 3.959.058s2.934-.011 3.958-.058c1.022-.046 1.72-.209 2.33-.446a4.706 4.706 0 0 0 1.7-1.107 4.706 4.706 0 0 0 1.108-1.7c.237-.611.4-1.31.446-2.33.047-1.025.058-1.352.058-3.959s-.011-2.934-.058-3.958c-.047-1.022-.209-1.72-.446-2.33a4.706 4.706 0 0 0-1.107-1.7 4.705 4.705 0 0 0-1.7-1.108c-.611-.237-1.31-.4-2.331-.446C14.934 2.41 14.608 2.4 12 2.4Zm0 1.73c2.563 0 2.867.01 3.88.056.935.042 1.443.199 1.782.33.448.174.768.382 1.104.718.336.336.544.656.718 1.104.131.338.287.847.33 1.783.046 1.012.056 1.316.056 3.879 0 2.563-.01 2.867-.056 3.88-.043.935-.199 1.444-.33 1.782a2.974 2.974 0 0 1-.719 1.104 2.974 2.974 0 0 1-1.103.718c-.339.131-.847.288-1.783.33-1.012.046-1.316.056-3.88.056-2.563 0-2.866-.01-3.878-.056-.936-.042-1.445-.199-1.783-.33a2.974 2.974 0 0 1-1.104-.718 2.974 2.974 0 0 1-.718-1.104c-.131-.338-.288-.847-.33-1.783-.047-1.012-.056-1.316-.056-3.879 0-2.563.01-2.867.056-3.88.042-.935.199-1.443.33-1.782.174-.448.382-.768.718-1.104a2.974 2.974 0 0 1 1.104-.718c.338-.131.847-.288 1.783-.33C9.133 4.14 9.437 4.13 12 4.13Zm0 11.07a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4Zm0-8.13a4.93 4.93 0 1 0 0 9.86 4.93 4.93 0 0 0 0-9.86Zm6.276-.194a1.152 1.152 0 1 1-2.304 0 1.152 1.152 0 0 1 2.304 0Z" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.youtube.com/channel/UCwbTaxyQ4I0JR0oF7NJ8Ocg" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR YouTube"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-youtube" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR YouTube">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-youtube" viewBox="0 0 24 24">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.44 5.243c.929.244 1.66.963 1.909 1.876.451 1.654.451 5.106.451 5.106s0 3.452-.451 5.106a2.681 2.681 0 0 1-1.91 1.876c-1.684.443-8.439.443-8.439.443s-6.754 0-8.439-.443a2.682 2.682 0 0 1-1.91-1.876c-.45-1.654-.45-5.106-.45-5.106s0-3.452.45-5.106a2.681 2.681 0 0 1 1.91-1.876c1.685-.443 8.44-.443 8.44-.443s6.754 0 8.438.443Zm-5.004 6.982L9.792 15.36V9.091l5.646 3.134Z" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tiktok.com/@polomanor.official" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR TikTok"><svg role="presentation" focusable="false" width="27" height="27" class="icon icon-tiktok" viewBox="0 0 24 24">
+                                    <a href="#" class="tap-area" target="_blank" rel="noopener" aria-label="Follow POLOMANOR TikTok">
+                                        <svg role="presentation" focusable="false" width="27" height="27" class="icon icon-tiktok" viewBox="0 0 24 24">
                                             <path d="M20.027 10.168a5.125 5.125 0 0 1-4.76-2.294v7.893a5.833 5.833 0 1 1-5.834-5.834c.122 0 .241.011.361.019v2.874c-.12-.014-.237-.036-.36-.036a2.977 2.977 0 0 0 0 5.954c1.644 0 3.096-1.295 3.096-2.94L12.56 2.4h2.75a5.122 5.122 0 0 0 4.72 4.573v3.195" fill="currentColor"></path>
-                                        </svg></a>
+                                        </svg>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="footer__aside-bottom">
-                            <p class="footer__copyright text-sm text-subdued">© 2023, Polomanor. Do Shopify cung cấp</p>
+                            <p class="footer__copyright text-sm text-subdued">© 2023, Thời Trang An Chi. Do ACM cung cấp</p>
                             <p class="site-footer-credits">
 
 
-                                <a href="http://online.gov.vn/Home/WebDetails/97426" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">
-                                    <img data-swift-lazy="1" loading="lazy" style="width: 8rem; height: auto;" src="//cdn.shopify.com/s/files/1/0257/3464/3766/files/logoSaleNoti.png?v=1609831319" alt="Đã thông báo với Bộ Công Thương" title="Đã thông báo với Bộ Công Thương">
+                                <a href="#" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">
+                                    <img 
+                                        data-swift-lazy="1" 
+                                        loading="lazy" 
+                                        style="width: 8rem; height: auto;" 
+                                        src="./assets/images/bct.webp" 
+                                        alt="Đã thông báo với Bộ Công Thương" 
+                                        title="Đã thông báo với Bộ Công Thương">
                                 </a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><privacy-bar class="privacy-bar" hidden="">
-            <div class="privacy-bar__inner">
-                <button type="button" class="privacy-bar__close" data-action="close">
-                    <span class="sr-only">Đóng</span><svg role="presentation" stroke-width="2" focusable="false" width="10" height="10" class="icon icon-delete" viewBox="0 0 10 10">
-                        <path d="m.757.757 8.486 8.486m-8.486 0L9.243.757" stroke="currentColor"></path>
-                    </svg></button>
-
-                <div class="v-stack gap-4">
-                    <div class="v-stack gap-2">
-                        <p class="bold">Cookie policy</p>
-                        <div class="prose text-xs">
-                            <p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>
-                        </div>
-                    </div>
-
-                    <div class="h-stack gap-2">
-                        <button type="button" class="button button--sm" data-action="accept">Đồng ý</button>
-                        <button type="button" class="button button--sm button--subdued" data-action="decline">Từ chối</button>
-                    </div>
-                </div>
-            </div>
-        </privacy-bar>
+        </div>
     </footer>
-    <script src="//cdn.codeblackbelt.com/js/modules/also-bought/main.min.js?shop=polomanor.myshopify.com" defer=""></script>
-    <!-- PickyStory code, do not modify. Safe to remove after the app is uninstalled -->
-
-    <!-- PickyStory code end -->
-    <!-- PickyStory snippet "main_widget_script", do not modify. Safe to remove after the app is uninstalled -->
-
-    <!-- PickyStory end snippet "main_widget_script" -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
-    <link href="//cdn.shopify.com/s/files/1/0685/2237/7522/t/5/assets/freegifts-main.css?v=21205034438350953231675908749" rel="stylesheet" type="text/css" media="all">
-    <link href="//cdn.shopify.com/s/files/1/0685/2237/7522/t/5/assets/freegifts-custom.css?v=184275253361247549911675908750" rel="stylesheet" type="text/css" media="all">
-    <div id="freegifts-main-popup-container" class="freegifts-main-container sca-modal-fg" data-animation="slideInOutTop"></div>
-    <div class="toast" id="add-gift-success-toast"></div>
-
-    <script src="//cdn.shopify.com/s/files/1/0685/2237/7522/t/5/assets/freegifts-offers-data.js?v=131371288687452421521675908761"></script>
+    <script src="./assets/js/main.min.js" defer=""></script>
+    <link rel="stylesheet" href="./assets/css/glider.min.css">
+    <script src="./assets/js/glider.min.js"></script>
     <script type="text/javascript">
         if (typeof Shopify === "undefined") window.Shopify = {};
         Shopify.cartItems = {};
@@ -3069,7 +3328,7 @@
         }
 
         //add link proxy
-        SECOMAPP.freegiftProxy = "https://polomanor.vn/apps/secomapp_freegifts_get_order?ver=3.0"
+        SECOMAPP.freegiftProxy = ""
 
         //add product
 
@@ -3079,14 +3338,9 @@
         // fg-icons
 
         if (typeof fgData === 'object' && fgData?.appearance?.gift_icon?.gift_icon_path) {
-            fgData.appearance.gift_icon.gift_icon_path = "//cdn.shopify.com/s/files/1/0685/2237/7522/t/5/assets/icon-freegift.png?v=140721731016794124831675908747";
+            fgData.appearance.gift_icon.gift_icon_path = "./assets/images/icon-freegift.webp";
         }
     </script>
-
-
-
-
-
 </body>
 
 </html>
