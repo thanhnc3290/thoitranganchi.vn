@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Font-1670597148190";
+    src: url("../fonts/98f97ed7d7fc0940.ttf");
+    font-display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: "Font-1670597148190" !important;
+}
+
+@font-face {
+    font-family: "Font-1678680842541";
+    src: url("../fonts/f5c48067f3876e78.ttf");
+    font-display: swap;
+}
+
+body,
+li {
+    font-family: "Font-1678680842541";
+}
+
+@media screen and (max-width: 749px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {}
+    body,
+    li {}
+}
